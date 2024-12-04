@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "name": "Leakage Testing Machine",
+      "description": "Reliable machine for detecting air or fluid leaks in a PTO cover. Ultra-sensitive for micro-leaks, high accuracy with low leak rate detection.<br><ul><li>Detects air or fluid leaks</li><li>Ultra-sensitive for micro-leaks</li><li>High accuracy with low leak rate detection</li></ul>",
+      "image": "./assets/img/products/leakage_testing_machine.jpg",
+      "category": "Category1"
+    },
+    {
+      "id": 2,
+      "name": "Case Cascade Conveyor",
+      "description": "Multi-level gravity-based conveyor for gentle material handling. Applications include food processing, pharmaceuticals, and recycling.",
+      "image": "./assets/img/products/case_cascade_conveyor.jpg",
+      "category": "Category2"
+    },
+    {
+      "id": 3,
+      "name": "Chain Bar Transfer Table",
+      "description": "Chain drive system for moving heavy loads. Applications include manufacturing, warehousing, and sheet metal handling.",
+      "image": "./assets/img/products/chain_bar_transfer_table.jpg",
+      "category": "Category3"
+    },
+    {
+      "id": 4,
+      "name": "Clamping Unit",
+      "description": "Hydraulic pipe clamping units for secure handling. Used in oil & gas pipelines, construction, and manufacturing.",
+      "image": "./assets/img/products/clamping_unit.jpg",
+      "category": "Category4"
+    },
+    {
+      "id": 5,
+      "name": "Coconut Cutting Machine",
+      "description": "Cuts through hard shells for coconut processing. Features heavy-duty blades and an automatic feeding mechanism.",
+      "image": "./assets/img/products/coconut_cutting_machine.jpg",
+      "category": "Category1"
+    },
+    {
+      "id": 6,
+      "name": "Semi-Automatic Cow Dung Log Making Machine",
+      "description": "Compresses and forms cow dung logs with semi-automation. Ideal for small to medium-scale production.",
+      "image": "./assets/img/products/cow_dung_log_machine.jpg",
+      "category": "Category2"
+    },
+    {
+      "id": 7,
+      "name": "Disinfection Box",
+      "description": "UV-C sterilization box for disinfecting everyday items using ultraviolet light. Common in households and medical settings.",
+      "image": "./assets/img/products/disinfection_box.jpg",
+      "category": "Category3"
+    },
+    {
+      "id": 8,
+      "name": "Dryer Box",
+      "description": "Industrial dryer for precision drying in manufacturing. Features advanced temperature and airflow control.",
+      "image": "./assets/img/products/dryer_box.jpg",
+      "category": "Category4"
+    },
+    {
+      "id": 9,
+      "name": "Kundi Making Machine",
+      "description": "Manual machine for eco-friendly cow dung flower pots. Low cost and ideal for small-scale operations.",
+      "image": "./assets/img/products/kundi_making_machine.jpg",
+      "category": "Category1"
+    },
+    {
+      "id": 10,
+      "name": "Magnetic Separator",
+      "description": "Separates magnetic materials. Applications in mining, recycling, ceramics, and food processing.",
+      "image": "./assets/img/products/magnetic_separator.jpg",
+      "category": "Category2"
+    },
+    {
+      "id": 11,
+      "name": "Oil Skimmer",
+      "description": "Removes oil and hydrocarbons from water. Used in industrial wastewater treatment and oil spill cleanup.",
+      "image": "./assets/img/products/oil_skimmer.jpg",
+      "category": "Category3"
+    },
+    {
+      "id": 12,
+      "name": "Vertical Stopper",
+      "description": "Controls flow of materials in vertical pipelines. Effective for liquids, gases, or solids.",
+      "image": "./assets/img/products/vertical_stopper.jpg",
+      "category": "Category4"
+    },
+    {
+      "id": 13,
+      "name": "Vertical Turret Lathe Machine",
+      "description": "Vertical lathe for machining large workpieces. Efficient, stable, and versatile for manufacturing industries.",
+      "image": "./assets/img/products/vertical_turret_lathe_machine.jpg",
+      "category": "Category1"
+    },
+    {
+      "id": 14,
+      "name": "Ginger Washing Machine",
+      "description": "Large-scale machine for washing and cleaning ginger. Preserves quality in food processing.",
+      "image": "./assets/img/products/ginger_washing_machine.jpg",
+      "category": "Category2"
+    },
+    {
+      "id": 15,
+      "name": "Sheet Loading Station",
+      "description": "Facilitates efficient loading of sheet materials in manufacturing. Common for lasers, cutters, and presses.",
+      "image": "./assets/img/products/sheet_loading_station.jpg",
+      "category": "Category3"
+    }
+  ]
+  
