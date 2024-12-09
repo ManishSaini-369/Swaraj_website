@@ -17,17 +17,23 @@ fetch('products.json')
         productCard.className = `col-md-4`; // Bootstrap grid column
     
         // Limit the product description to 100 words
-        const limitedDescription = product.description.split(' ').slice(0, 20).join(' ') + (product.description.split(' ').length > 20 ? '...' : '');
-    
+        // const limitedDescription = product.description.split(' ').slice(0, 20).join(' ') + (product.description.split(' ').length > 20 ? '...' : '');
+        const limitedDescription = product.description.length > 100
+  ? product.description.slice(0, 50) + '...'
+  : product.description;
+
+        
+
         productCard.innerHTML = `
-          <div class="card">
+          <div class="card" style="background-color: var(--surface-color); color: var(--heading-color);">
             <img src="${product.image}" class="card-img-top" style="width: 100%; height: 200px; object-fit: cover" alt="${product.name}">
             <div class="card-body">
-              <h5 class="card-title">${product.name}</h5>
-              <p class="card-text">${limitedDescription}</p>
-              
+              <h5 class="card-title" style="font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${product.name}">${product.name}</h5>
+              <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${limitedDescription}</p>
+              <a href="product.html?id=${product.id}" class="btn btn-primary" style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
+               transition: 0.3s all ease-in-out; font-size: 14px; color: var(--contrast-color) !important;">View Details</a>
             </div>
-            <a href="product.html?id=${product.id}" class="btn btn-primary">View Details</a>
+            
           </div>
         `;
         productList.appendChild(productCard);

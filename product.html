@@ -49,9 +49,9 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -79,15 +79,21 @@
     <section id="portfolio-details" class="portfolio-details section">
 
       <div class="container" data-aos="fade-up">
-        <div class="card mb-3">
+        <div class="card mb-3" style="background-color: var(--surface-color); color: var(--heading-color);">
           <img id="product-image" src="" class="card-img-top" alt="Product Image" style="width: 100%; height: 500px; object-fit: contain;">
           <div class="card-body">
             <h5 id="product-name" class="card-title">Loading...</h5>
             <p id="product-description" class="card-text">Loading description...</p>
             <!-- Enquiry Button -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">
               Enquire Now
-            </button>
+            </button> -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal" 
+        style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
+               transition: 0.3s all ease-in-out; font-size: 14px; color: var(--contrast-color) !important;">
+  Enquire Now
+</button>
+
           </div>
         </div>
       </div>
@@ -95,7 +101,7 @@
       <!-- Modal for Enquiry Form -->
   <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content" style="background-color: var(--surface-color); color: var(--heading-color);">
         <div class="modal-header">
           <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -118,7 +124,8 @@
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" id="message" rows="4" placeholder="Your enquiry about the product" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
+               transition: 0.3s all ease-in-out; font-size: 14px; color: var(--contrast-color) !important;">Submit</button>
           </form>
         </div>
       </div>
@@ -132,8 +139,8 @@
 
   <footer id="footer" class="footer light-background">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+      <div class="row g-3">
+        <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
           <div class="widget">
             <h3 class="widget-heading">About Us</h3>
             <p class="mb-4">
@@ -145,37 +152,28 @@
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 ps-lg-5 mb-3 mb-md-0">
+        <div class="col-md-4 col-lg-4 ps-lg-5 mb-3 mb-md-0" style="
+        justify-items: center;
+    ">
           <div class="widget">
             <h3 class="widget-heading">Navigation</h3>
             <ul class="list-unstyled float-start me-5">
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Find Buyers</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="products.html">Products</a></li>
             </ul>
             <ul class="list-unstyled float-start">
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <!-- <li><a href="#">Services</a></li> -->
             </ul>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 pl-lg-5">
-          <div class="widget">
-            <h3 class="widget-heading">Recent Posts</h3>
-            <ul class="list-unstyled footer-blog-entry">
-              <li>
-                <span class="d-block date">May 3, 2020</span>
-                <a href="#">There live the Blind Texts</a>
-              </li>
-              <li>
-                <span class="d-block date">May 3, 2020</span>
-                <a href="#">Separated they live in Bookmarksgrove right</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 pl-lg-5">
+        
+        <div class="col-md-4 col-lg-4 pl-lg-5" style="
+        align-self: center;
+        justify-items: end;
+    ">
           <div class="widget">
             <h3 class="widget-heading">Connect</h3>
             <ul class="list-unstyled social-icons light mb-3">
@@ -196,38 +194,12 @@
               </li>
             </ul>
           </div>
-
-          <div class="widget">
-            <div class="footer-subscribe">
-              <h3 class="widget-heading">Subscribe</h3>
-              <form action="forms/newsletter.php" method="post" class="php-email-form">
-                <div class="mb-2">
-                  <input type="text" class="form-control" name="email" placeholder="Enter your email">
-
-                  <button type="submit" class="btn btn-link">
-                    <span class="bi bi-arrow-right"></span>
-                  </button>
-                </div>
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your subscription request has been sent. Thank you!
-                </div>
-              </form>
-            </div>
-          </div>
         </div>
       </div>
 
       <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Active.</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
-        </div>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Swaraj.</strong> <span>All Rights Reserved</span></p>
+        
       </div>
     </div>
   </footer>

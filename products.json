@@ -1,107 +1,248 @@
 [
-  {
-    "id": 1,
-    "name": "Leakage Testing Machine",
-    "description": "Reliable machine for detecting air or fluid leaks in a PTO cover. Ultra-sensitive for micro-leaks, high accuracy with low leak rate detection.<br><ul><li>Detects air or fluid leaks</li><li>Ultra-sensitive for micro-leaks</li><li>High accuracy with low leak rate detection</li></ul>",
-    "image": "./assets/img/products/leakage_testing_machine.jpg",
-    "category": "Category1"
-  },
-  {
-    "id": 2,
-    "name": "Case Cascade Conveyor",
-    "description": "Multi-level gravity-based conveyor for gentle material handling. Applications include food processing, pharmaceuticals, and recycling.",
-    "image": "./assets/img/products/case_cascade_conveyor.jpg",
-    "category": "Category2"
-  },
-  {
-    "id": 3,
-    "name": "Chain Bar Transfer Table",
-    "description": "Chain drive system for moving heavy loads. Applications include manufacturing, warehousing, and sheet metal handling.",
-    "image": "./assets/img/products/chain_bar_transfer_table.jpg",
-    "category": "Category3"
-  },
-  {
-    "id": 4,
-    "name": "Clamping Unit",
-    "description": "Hydraulic pipe clamping units for secure handling. Used in oil & gas pipelines, construction, and manufacturing.",
-    "image": "./assets/img/products/clamping_unit.jpg",
-    "category": "Category4"
-  },
-  {
-    "id": 5,
-    "name": "Coconut Cutting Machine",
-    "description": "Cuts through hard shells for coconut processing. Features heavy-duty blades and an automatic feeding mechanism.",
-    "image": "./assets/img/products/coconut_cutting_machine.jpg",
-    "category": "Category1"
-  },
-  {
-    "id": 6,
-    "name": "Semi-Automatic Cow Dung Log Making Machine",
-    "description": "Compresses and forms cow dung logs with semi-automation. Ideal for small to medium-scale production.",
-    "image": "./assets/img/products/cow_dung_log_machine.jpg",
-    "category": "Category2"
-  },
-  {
-    "id": 7,
-    "name": "Disinfection Box",
-    "description": "UV-C sterilization box for disinfecting everyday items using ultraviolet light. Common in households and medical settings.",
-    "image": "./assets/img/products/disinfection_box.jpg",
-    "category": "Category3"
-  },
-  {
-    "id": 8,
-    "name": "Dryer Box",
-    "description": "Industrial dryer for precision drying in manufacturing. Features advanced temperature and airflow control.",
-    "image": "./assets/img/products/dryer_box.jpg",
-    "category": "Category4"
-  },
-  {
-    "id": 9,
-    "name": "Kundi Making Machine",
-    "description": "Manual machine for eco-friendly cow dung flower pots. Low cost and ideal for small-scale operations.",
-    "image": "./assets/img/products/kundi_making_machine.jpg",
-    "category": "Category1"
-  },
-  {
-    "id": 10,
-    "name": "Magnetic Separator",
-    "description": "Separates magnetic materials. Applications in mining, recycling, ceramics, and food processing.",
-    "image": "./assets/img/products/magnetic_separator.jpg",
-    "category": "Category2"
-  },
-  {
-    "id": 11,
-    "name": "Oil Skimmer",
-    "description": "Removes oil and hydrocarbons from water. Used in industrial wastewater treatment and oil spill cleanup.",
-    "image": "./assets/img/products/oil_skimmer.jpg",
-    "category": "Category3"
-  },
-  {
-    "id": 12,
-    "name": "Vertical Stopper",
-    "description": "Controls flow of materials in vertical pipelines. Effective for liquids, gases, or solids.",
-    "image": "./assets/img/products/vertical_stopper.jpg",
-    "category": "Category4"
-  },
-  {
-    "id": 13,
-    "name": "Vertical Turret Lathe Machine",
-    "description": "Vertical lathe for machining large workpieces. Efficient, stable, and versatile for manufacturing industries.",
-    "image": "./assets/img/products/vertical_turret_lathe_machine.jpg",
-    "category": "Category1"
-  },
-  {
-    "id": 14,
-    "name": "Ginger Washing Machine",
-    "description": "Large-scale machine for washing and cleaning ginger. Preserves quality in food processing.",
-    "image": "./assets/img/products/ginger_washing_machine.jpg",
-    "category": "Category2"
-  },
-  {
-    "id": 15,
-    "name": "Sheet Loading Station",
-    "description": "Facilitates efficient loading of sheet materials in manufacturing. Common for lasers, cutters, and presses.",
-    "image": "./assets/img/products/sheet_loading_station.jpg",
-    "category": "Category3"
-  }
+    {
+        "id": 1,
+        "name": "HYDRAULIC OIL CLEANING MACHINE",
+        "description": "Designed to remove particulate contamination, water, and other impurities from hydraulic oil, this machine ensures smooth operation of hydraulic systems, extending the life of machinery and minimizing breakdowns.",
+        "image": "./assets/img/products/leakage_testing_machine.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 2,
+        "name": "MAGNETIC SEPARATOR",
+        "description": "Utilizes powerful magnets to separate ferrous materials from fluids, slurries, or powders. Ideal for maintaining purity in manufacturing processes and safeguarding downstream equipment from damage.",
+        "image": "./assets/img/products/case_cascade_conveyor.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 3,
+        "name": "OIL SKIMMER",
+        "description": "Skims oil and grease from the surface of water, coolant, or other liquids. Commonly used in industrial settings to improve fluid quality, reduce odors, and enhance overall system efficiency.",
+        "image": "./assets/img/products/chain_bar_transfer_table.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 4,
+        "name": "LEAKAGE TESTING MACHINE",
+        "description": "Precisely detects even the smallest leaks in components such as pipes, valves, or tanks, using air, water, or gas under controlled pressure to ensure products meet stringent quality standards.",
+        "image": "./assets/img/products/clamping_unit.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 5,
+        "name": "CASE CADE CONVEYOR",
+        "description": "Designed for smooth and efficient movement of materials through a cascading arrangement, this conveyor enhances productivity in industries like manufacturing, food processing, and packaging.",
+        "image": "./assets/img/products/coconut_cutting_machine.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 6,
+        "name": "COCONUT CUTTING MACHINE",
+        "description": "Automates the process of slicing coconuts into desired shapes and sizes, ensuring uniformity and safety. Perfect for food processing units and agricultural businesses.",
+        "image": "./assets/img/products/cow_dung_log_machine.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 7,
+        "name": "DISINFECTION BOX",
+        "description": "Uses UV light, ozone, or chemical disinfectants to sterilize tools, medical equipment, or personal items, providing a secure environment to eliminate bacteria and viruses effectively.",
+        "image": "./assets/img/products/disinfection_box.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 8,
+        "name": "DRYER BOX",
+        "description": "Provides controlled drying for components, tools, or materials by regulating temperature and humidity. Commonly used in laboratories, electronics, and manufacturing industries.",
+        "image": "./assets/img/products/dryer_box.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 9,
+        "name": "VERTICAL TURRET LATHE MACHINE",
+        "description": "A robust machine for machining heavy, large-diameter work pieces. It performs turning, facing, and boring with precision, making it ideal for automotive and aerospace components.",
+        "image": "./assets/img/products/kundi_making_machine.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 10,
+        "name": "SHEET LOADING STATION",
+        "description": "Facilitates the automated or manual loading of sheets into processing machines, reducing manual effort and ensuring safety during operations.",
+        "image": "./assets/img/products/magnetic_separator.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 11,
+        "name": "PIPE NOTCHING MACHINE",
+        "description": "Produces precise notches or grooves in pipes for welding and assembly applications. Suitable for plumbing, fabrication, and construction industries.",
+        "image": "./assets/img/products/oil_skimmer.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 12,
+        "name": "RIVETING PRESS MACHINE",
+        "description": "Provides a fast and efficient method for riveting components in various industries. Its consistent force application ensures strong, reliable joints in metal or plastic parts.",
+        "image": "./assets/img/products/vertical_stopper.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 13,
+        "name": "VIBRATOR MACHINE",
+        "description": "Utilizes high-frequency vibrations to compact materials, improve density, or polish components. Widely used in construction, metalworking, and finishing industries.",
+        "image": "./assets/img/products/vertical_turret_lathe_machine.jpg",
+        "category": "Special Purpose Machines"
+    },
+    {
+        "id": 14,
+        "name": "SEMI-AUTOMATIC COW DUNG LOG MAKING MACHINE",
+        "description": "Converts cow dung into fuel logs or compost material with minimal manual intervention. Supports eco-friendly waste management and sustainable energy solutions.",
+        "image": "./assets/img/products/ginger_washing_machine.jpg",
+        "category": "Agricultural Based Machines"
+    },
+    {
+        "id": 15,
+        "name": "KUNDI MAKING MACHINE",
+        "description": "Crafts traditional clay pots or containers efficiently, combining precision and speed for pottery industries and artisans.",
+        "image": "./assets/img/products/sheet_loading_station.jpg",
+        "category": "Agricultural Based Machines"
+    },
+    {
+        "id": 16,
+        "name": "GINGER WASHING MACHINE",
+        "description": "Effectively washes ginger roots in bulk, removing dirt and debris while maintaining the natural texture. Suitable for agricultural processing units and spice production industries.",
+        "image": "./assets/img/products/product_16.jpg",
+        "category": "Agricultural Based Machines"
+    },
+    {
+        "id": 17,
+        "name": "CHAIN BAR TRANSFER TABLE",
+        "description": "A robust and efficient system for transferring heavy materials such as billets, rods, or metal bars across production lines. Its chain-driven mechanism ensures synchronized and smooth operations, reducing manual handling and increasing production efficiency in rolling mills.",
+        "image": "./assets/img/products/product_17.jpg",
+        "category": "Rolling Mill Equipment Machines"
+    },
+    {
+        "id": 18,
+        "name": "CLAMPING UNIT",
+        "description": "This unit firmly holds workpieces during machining, cutting, or fabrication processes, preventing movement and ensuring precise alignment. Its strong clamping force makes it ideal for handling large and heavy materials in industrial applications.",
+        "image": "./assets/img/products/product_18.jpg",
+        "category": "Rolling Mill Equipment Machines"
+    },
+    {
+        "id": 19,
+        "name": "DISAPPEARING STOPPER",
+        "description": "A retractable stopper designed to temporarily halt the movement of materials on a conveyor or processing line. It is engineered to disappear seamlessly after use, enabling continuous and uninterrupted production flow in rolling mills.",
+        "image": "./assets/img/products/product_19.jpg",
+        "category": "Rolling Mill Equipment Machines"
+    },
+    {
+        "id": 20,
+        "name": "VERTICAL STOPPER",
+        "description": "A vertically positioned stopper that controls and aligns materials with precision during handling. Commonly used in rolling mills and fabrication units to ensure proper positioning and reduce material waste.",
+        "image": "./assets/img/products/product_20.jpg",
+        "category": "Rolling Mill Equipment Machines"
+    },
+    {
+        "id": 21,
+        "name": "BAR ALIGNER",
+        "description": "Specially designed to align and straighten bars for smooth processing in rolling mill operations. This machine improves production accuracy and ensures that bars meet required specifications before entering the next phase.",
+        "image": "./assets/img/products/product_21.jpg",
+        "category": "Rolling Mill Equipment Machines"
+    },
+    {
+        "id": 22,
+        "name": "ROLLER CONVEYOR TABLE",
+        "description": "A heavy-duty conveyor table featuring rollers that enable the smooth and efficient transportation of metal bars, sheets, or billets across production lines. Ideal for handling large and bulky materials, it reduces manual effort and increases operational efficiency.",
+        "image": "./assets/img/products/product_22.jpg",
+        "category": "Rolling Mill Equipment Machines"
+    },
+    {
+        "id": 23,
+        "name": "PNEUMATIC JUMBO ROLL SLITTING MACHINE",
+        "description": "A highly precise machine for cutting jumbo abrasive rolls into smaller, uniform strips. It uses pneumatic control for efficient operation, ensuring minimal waste and high-quality slits suitable for a variety of industrial applications.",
+        "image": "./assets/img/products/product_23.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 24,
+        "name": "WIDE BELT PRESS MACHINE",
+        "description": "This machine applies controlled pressure and heat to abrasive belts, securely bonding them for durability and reliability. It ensures strong joints, making the belts suitable for demanding industrial sanding and grinding tasks.",
+        "image": "./assets/img/products/product_24.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 25,
+        "name": "STRAIGHT FLEXING MACHINE",
+        "description": "Improves the flexibility and usability of abrasive materials by processing them in a straight flexing motion. This enhances the durability and adaptability of the materials for various applications, ensuring consistent quality in manufacturing.",
+        "image": "./assets/img/products/product_25.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 26,
+        "name": "WIDE BELT CUTTING MACHINE",
+        "description": "A specialized machine for cutting wide abrasive belts into desired sizes and shapes with exceptional precision. It is essential for producing custom belts tailored to specific industrial requirements.",
+        "image": "./assets/img/products/product_26.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 27,
+        "name": "BACK SKIVING MACHINE",
+        "description": "Removes a thin layer of material from the back of abrasive belts to prepare them for smooth and seamless joining. This machine enhances the overall functionality and performance of the belts during heavy-duty operations.",
+        "image": "./assets/img/products/product_27.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 28,
+        "name": "ABRASIVE MULTI-SLITTING MACHINE",
+        "description": "Designed to slit multiple abrasive sheets or rolls simultaneously into smaller, uniform strips. It significantly boosts production efficiency and is ideal for large-scale abrasive manufacturing processes.",
+        "image": "./assets/img/products/product_28.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 29,
+        "name": "NARROW BELT PRESS MACHINE",
+        "description": "Specifically engineered to press and bond narrow abrasive belts with uniform pressure. This ensures the belts are durable and capable of meeting the high precision requirements of specialized industrial applications.",
+        "image": "./assets/img/products/product_29.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 30,
+        "name": "NARROW BELT CUTTING MACHINE",
+        "description": "A precision machine that cuts narrow abrasive belts to specific widths. It is essential for creating custom belts used in precision grinding, sanding, and finishing applications.",
+        "image": "./assets/img/products/product_30.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 31,
+        "name": "MULTI-SLITTING MACHINE",
+        "description": "A versatile machine capable of cutting multiple materials, including abrasives, into uniform strips in a single operation. This reduces production time while maintaining high accuracy and quality.",
+        "image": "./assets/img/products/product_31.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 32,
+        "name": "ABRASIVE ROUGHING MACHINE",
+        "description": "Prepares abrasive materials by creating a rough surface texture that enhances adhesion and performance. This is particularly useful for abrasive tools used in heavy-duty grinding and sanding.",
+        "image": "./assets/img/products/product_32.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 33,
+        "name": "SMALL ROLL CROSS FLEXING MACHINE",
+        "description": "Processes small abrasive rolls by flexing them diagonally, improving their usability in specific industrial and precision applications. Ideal for custom abrasive tool manufacturing.",
+        "image": "./assets/img/products/product_33.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 34,
+        "name": "ABRASIVE SHEET CUTTING MACHINE",
+        "description": "Cuts abrasive sheets into precise dimensions and shapes, catering to diverse industrial needs such as polishing, grinding, and surface finishing.",
+        "image": "./assets/img/products/product_34.jpg",
+        "category": "Abrasive Conversion Machines"
+    },
+    {
+        "id": 35,
+        "name": "ABRASIVE PAPER TESTING UNIT",
+        "description": "A sophisticated unit that rigorously tests the strength, durability, and performance of abrasive papers. It ensures that the products meet industry standards and are reliable for demanding applications.",
+        "image": "./assets/img/products/product_35.jpg",
+        "category": "Abrasive Conversion Machines"
+    }
+
 ]
