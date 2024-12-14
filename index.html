@@ -31,31 +31,25 @@
   <!-- <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-5/assets/css/hero-5.css">
 
-  <!-- =======================================================
-  * Template Name: Active
-  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
+  <header id="header" class="header d-flex align-items-center sticky-top" style="background-color: #;">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img style="border-radius: 10px;" src="assets/logo/logo.png" alt="">
-        <h1 class="sitename">Swaraj Industries</h1>
+        <h1 id="website_name" class="sitename">Swaraj Industries</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="industries.html">Industries</a></li>
           <li><a href="products.html">Products</a></li>
+          <!-- <li><a href="portfolio.html">Protfolio</a></li> -->
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -97,14 +91,22 @@
               </div>
             </div>
 
-            <div class="offset-md-0 offset-lg-1 col-sm-12 col-md-5 col-lg-5 col-xl-4" data-aos="fade-up">
+            <div class="offset-md-0 col-sm-12 col-md-5 col-lg-5" data-aos="fade-up">
               <div class="px-3">
                 <span class="content-subtitle">Our Mission</span>
-                <h2 class="content-title text-start">
+                <ul class="content-title text-start" style="font-size: 19px;">
+                  <li><strong>Innovate with Purpose:</strong> To develop advanced, precision-driven machinery and engineering solutions that empower industries to achieve operational excellence.</li>
+                  <li><strong>Drive Sustainable Growth:</strong> To champion eco-friendly design and manufacturing practices, ensuring a positive impact on the environment and future generations.</li>
+                  <li><strong>Empower Industrial Competitiveness:</strong> To enhance India’s industrial landscape by delivering customized, high-performance automation and production systems.</li>
+                  <li><strong>Prioritize Customer Success:</strong> To partner with clients, understanding their unique needs and delivering tailored, value-driven solutions.</li>
+                  <li><strong>Foster Continuous Improvement:</strong> To cultivate a culture of learning, research, and technological advancement, ensuring our solutions remain at the forefront of industry innovation.</li>
+              </ul>
+                
+                <!-- <h2 class="content-title text-start">
                   At Swaraj Engineering, we craft bespoke machinery solutions that ignite industrial potential. We
                   drive sustainability, efficiency, and growth through innovative design, unwavering quality, and
                   relentless customer focus.
-                </h2>
+                </h2> -->
                 <!-- <p class="lead">
                   A small river named Duden flows by their place and supplies it
                   with the necessary regelialia. It is a paradisematic country.
@@ -319,8 +321,122 @@
       </div>
     </section><!-- /Tabs Section -->
 
+    <section id="portfolio" class="portfolio section">
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <!-- <span class="content-subtitle">INDUSTRIES SERVED BY SWARAJ</span> -->
+          <h3 class="widget-heading" style="padding: 10px;">INDUSTRIES SERVED BY SWARAJ</h3>
+
+          <!-- <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Industry server</li>
+            <li data-filter=".">App</li>
+            <li data-filter=".">Card</li>
+            <li data-filter=".">Web</li>
+          </ul> -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/Automotive_Industry.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Automotive Industry
+                <p>Machines: Leakage Testing Machine, Magnetic Separator, Oil Skimmer, Vertical Turret Lathe Machine, Straight Flexing Machine.
+                <!-- <a href="assets/img/Industry/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/food_processing.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Food Processing Industry
+                <p>Machines: Coconut Cutting Machine, Ginger Washing Machine, Dryer Box.
+                <!-- <a href="assets/img/Industry/food_processing.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/Agriculture_and_farming.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Agriculture and Farming
+                <p>Machines: Semi-Automatic Cow Dung Log Making Machine, Kundi Making Machine.
+                <!-- <a href="assets/img/Industry/Agriculture_and_farming.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/Packaging_and_Material_Handling.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Packaging and Material Handling
+                <p>Machines: Case Cade Conveyor, Chain Bar Transfer Table, Sheet Loading Station, Disappearing Stopper, Vertical Stopper.
+                <!-- <a href="assets/img/Industry/Packaging_and_Material_Handling.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/Manufacturing.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Manufacturing and Engineering</h4>
+                <p>Machines: Clamping Unit, Vertical Turret Lathe Machine, Pneumatic Jumbo Roll Slitting Machines, Wide Belt Press Machine, Narrow Belt Cutting Machine, Abrasive Sheet Cutting Machine</p>
+                <!-- <a href="assets/img/Industry/Manufacturing.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/HealthcareandSanitation.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Healthcare and Sanitation</h4>
+                <p>Machines: Disinfection Box.</p>
+                <!-- <a href="assets/img/Industry/HealthcareandSanitation.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/Abrasive_Industry.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Abrasive Industry</h4>
+                <p>Machines: Abrasive Multi Slitting Machine, Abrasive Roughing Machine, Abrasive Sheet Cutting Machine, Abrasive Paper Testing Unit.</p>
+                <!-- <a href="assets/img/Industry/Abrasive_Industry.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/TextileandPaperIndustry.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Textile and Paper Industry</h4>
+                <p>Machines: Pneumatic Jumbo Roll Slitting Machines, Wide Belt Cutting Machine, Narrow Belt Press Machine, Small Roll Cross Flexing Machine.</p>
+                <!-- <a href="assets/img/Industry/TextileandPaperIndustry.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <img src="assets/img/Industry/OilandEnergy.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Oil and Energy</h4>
+                <p>Machines: Oil Skimmer, Dryer Box.</p>
+                <!-- <a href="assets/img/Industry/OilandEnergy.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- Services 2 Section -->
-    <section id="services-2" class="services-2 section">
+    <!-- <section id="services-2" class="services-2 section">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="fade-up">
@@ -393,7 +509,8 @@
           </div>
         </div>
       </div>
-    </section><!-- /Services 2 Section -->
+    </section> -->
+    <!-- /Services 2 Section -->
 
 
 
@@ -423,7 +540,7 @@
             <h3 class="widget-heading">Navigation</h3>
             <ul class="list-unstyled float-start me-5">
               <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
+              <li><a href="industries.html">Industries</a></li>
               <li><a href="products.html">Products</a></li>
             </ul>
             <ul class="list-unstyled float-start">
@@ -441,20 +558,20 @@
           <div class="widget">
             <h3 class="widget-heading">Connect</h3>
             <ul class="list-unstyled social-icons light mb-3">
-              <li>
+              <!-- <li>
                 <a href="#"><span class="bi bi-facebook"></span></a>
-              </li>
+              </li> -->
               <li>
+                <a href="https://www.instagram.com/swaraj.engineering/profilecard/?igsh=ODBkdHczOWlhZDV6   "><span class="bi bi-instagram"></span></a>
+              </li>
+              <!-- <li>
                 <a href="#"><span class="bi bi-twitter-x"></span></a>
+              </li> -->
+              <li>
+                <a href="https://www.linkedin.com/company/swaraj-engineering/?viewAsMember=true "><span class="bi bi-linkedin"></span></a>
               </li>
               <li>
-                <a href="#"><span class="bi bi-linkedin"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google-play"></span></a>
+                <a href="https://www.youtube.com/channel/UCBB_nPSvg3iWFLhlEN6nJjQ "><span class="bi bi-youtube"></span></a>
               </li>
             </ul>
           </div>
@@ -487,6 +604,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 

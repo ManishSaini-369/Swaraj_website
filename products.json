@@ -2,246 +2,276 @@
     {
         "id": 1,
         "name": "HYDRAULIC OIL CLEANING MACHINE",
-        "description": "Designed to remove particulate contamination, water, and other impurities from hydraulic oil, this machine ensures smooth operation of hydraulic systems, extending the life of machinery and minimizing breakdowns.",
-        "image": "./assets/img/products/leakage_testing_machine.jpg",
+        "description": "Designed to remove particulate contamination, water, and other impurities from hydraulic oil, this machine ensures smooth operation of hydraulic systems, extending the life of machinery and minimizing breakdowns. <ul><li><strong>Extended Oil Life:</strong> By removing contaminants, hydraulic oil can be reused, reducing the frequency of oil replacement.</li><li><strong>Reduced Maintenance Costs:</strong> Clean oil prevents wear and tear on hydraulic components like pumps, cylinders, and valves, thereby reducing maintenance costs.</li><li><strong>Minimized Downtime:</strong> Contamination-related breakdowns are significantly reduced, leading to uninterrupted production.</li><li><strong>Environmental Benefits:</strong> Reducing the disposal of used oil helps lower waste and supports eco-friendly operations.</li><li><strong>Improved System Efficiency:</strong> Cleaner oil ensures better performance, reducing energy consumption and improving overall system efficiency.</li><li><strong>Cost Savings:</strong> Reducing the need for fresh hydraulic oil cuts down on procurement and disposal costs.</li><li><strong>Increased Equipment Lifespan:</strong> Proper lubrication with clean oil increases the lifespan of hydraulic systems and critical components.</li></ul>",
+        "image": "./assets/img/products/hydraulic_oil_cleaning_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 2,
         "name": "MAGNETIC SEPARATOR",
-        "description": "Utilizes powerful magnets to separate ferrous materials from fluids, slurries, or powders. Ideal for maintaining purity in manufacturing processes and safeguarding downstream equipment from damage.",
-        "image": "./assets/img/products/case_cascade_conveyor.jpg",
+        "description": "Utilizes powerful magnets to separate ferrous materials from fluids, slurries, or powders. Ideal for maintaining purity in manufacturing processes and safeguarding downstream equipment from damage. <b>Applications of Magnetic Separators:</b><ul><li><b>Mining:</b> For separating iron ore, magnetite, and other magnetic minerals from non-magnetic gangue materials.</li><li><b>Recycling:</b> In waste management and scrap yards, magnetic separators recover ferrous metals (like iron and steel) from mixed waste streams (e.g., plastic, glass, aluminum).</li><li><b>Ceramics:</b> To remove iron contamination from raw materials like clay and feldspar.</li><li><b>Chemical Industry:</b> Used to clean raw materials by removing tramp iron or magnetic contaminants.</li><li><b>Food Processing:</b> To remove metal contaminants from food products and ingredients before packaging.</li></ul><b>Benefits of Magnetic Separator Machines:</b><ol><li><b>Increased Purity:</b> They help achieve a higher level of purity in the processed material by removing unwanted metal contaminants.</li><li><b>Cost-Effective:</b> By recovering valuable metals from waste, magnetic separators help reduce raw material costs.</li><li><b>Improved Product Quality:</b> They ensure that final products are free of ferrous contamination, which can improve product quality and safety, particularly in the food and pharmaceutical industries.</li><li><b>Reduced Equipment Wear:</b> Removing ferrous metals from the material stream helps reduce wear and tear on downstream processing equipment.</li><li><b>Environmental Benefits:</b> By recycling metal materials, magnetic separators help reduce the environmental impact associated with mining and metal processing.</li></ol>",
+        "image": "./assets/img/products/magnetic_separator.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 3,
         "name": "OIL SKIMMER",
-        "description": "Skims oil and grease from the surface of water, coolant, or other liquids. Commonly used in industrial settings to improve fluid quality, reduce odors, and enhance overall system efficiency.",
-        "image": "./assets/img/products/chain_bar_transfer_table.jpg",
+        "description": "Skims oil and grease from the surface of water, coolant, or other liquids. Commonly used in industrial settings to improve fluid quality, reduce odors, and enhance overall system efficiency. <b>Applications of Floating Oil Skimmers:</b><ul><li><b>Industrial Wastewater Treatment:</b> Used to remove oil and grease from industrial wastewater before discharge.</li><li><b>Oil Spill Response:</b> Essential for cleaning up oil spills in oceans, rivers, and lakes, protecting aquatic ecosystems.</li><li><b>Refineries and Petrochemical Plants:</b> Continuous oil removal from process water to maintain operational efficiency.</li></ul>",
+        "image": "./assets/img/products/oil_skimmer.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 4,
         "name": "LEAKAGE TESTING MACHINE",
-        "description": "Precisely detects even the smallest leaks in components such as pipes, valves, or tanks, using air, water, or gas under controlled pressure to ensure products meet stringent quality standards.",
-        "image": "./assets/img/products/clamping_unit.jpg",
+        "description": "Precisely detects even the smallest leaks in components such as pipes, valves, or tanks, using air, water, or gas under controlled pressure to ensure products meet stringent quality standards. <ul><li>This is a reliable machine that can detect any air or fluid leaks in the component.</li><li>The type of leakage testing machine required will depend on the testing method (air pressure, vacuum, or fluid-based testing) and the specific parameters of the PTO cover.</li><li>Ultra-sensitive for micro-leaks</li><li>High accuracy with a very low leak rate detection</li><li>Can be used in conjunction with vacuum chambers.</li></ul>",
+        "image": "./assets/img/products/leakage_testing_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 5,
         "name": "CASE CADE CONVEYOR",
-        "description": "Designed for smooth and efficient movement of materials through a cascading arrangement, this conveyor enhances productivity in industries like manufacturing, food processing, and packaging.",
-        "image": "./assets/img/products/coconut_cutting_machine.jpg",
+        "description": "Designed for smooth and efficient movement of materials through a cascading arrangement, this conveyor enhances productivity in industries like manufacturing, food processing, and packaging. <ul><li>Multi-Level Design: The conveyor typically has several layers or platforms where the material flows from one level to another.</li><li>Gravity-Based Movement: Most cascade conveyors use gravity for the downward movement of materials, making them energy-efficient.</li><li>Gentle Material Handling: Ideal for delicate materials that may get damaged in conventional conveyors, such as food items, powders, or granular materials.</li><li>Customizable Flow: The cascade design can be adjusted depending on the material's flow rate and characteristics, controlling how the material moves between levels.</li></ul><b>Applications:</b><ul><li>Food Processing: Cascading conveyors are used to handle food items like cereals, nuts, snacks, or grains where careful handling is crucial to prevent damage.</li><li>Pharmaceuticals: In handling powders or tablets, cascade conveyors ensure gentle movement between different stages.</li><li>Recycling Industry: Used for sorting and separating materials into different categories (e.g., metals, plastics) as they flow downwards.</li></ul>",
+        "image": "./assets/img/products/case_cascade_conveyor.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 6,
         "name": "COCONUT CUTTING MACHINE",
-        "description": "Automates the process of slicing coconuts into desired shapes and sizes, ensuring uniformity and safety. Perfect for food processing units and agricultural businesses.",
-        "image": "./assets/img/products/cow_dung_log_machine.jpg",
+        "description": "Automates the process of slicing coconuts into desired shapes and sizes, ensuring uniformity and safety. Perfect for food processing units and agricultural businesses. <b>Mature Coconut Cutting Machine</b><ul><li><b>Purpose:</b> These machines cut through the hard shell of mature coconuts, making it easier to process the coconut flesh (copra) or shell for further use.</li><li><b>How it works:</b> The machine uses strong, sharp blades to cut or split the coconut shell, typically separating it into two halves.</li><li><b>Application:</b> Used in coconut oil production, desiccated coconut processing, and other coconut-based product manufacturing.</li><li><b>Features:</b><ul><li>Heavy-duty blades for cutting through hard shells</li><li>Automatic feeding and cutting mechanism for continuous operation</li><li>Customizable blade settings for different cutting sizes</li></ul></li></ul>",
+        "image": "./assets/img/products/coconut_cutting_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 7,
         "name": "DISINFECTION BOX",
-        "description": "Uses UV light, ozone, or chemical disinfectants to sterilize tools, medical equipment, or personal items, providing a secure environment to eliminate bacteria and viruses effectively.",
+        "description": "Uses UV light, ozone, or chemical disinfectants to sterilize tools, medical equipment, or personal items, providing a secure environment to eliminate bacteria and viruses effectively. <b>A UV-C sterilization box</b> is a device designed to disinfect and sterilize objects using ultraviolet (UV-C) light. UV-C light has a short wavelength (between 200-280 nm) and is highly effective at killing or inactivating microorganisms, such as bacteria, viruses, and fungi, by disrupting their DNA or RNA. UV-C sterilization boxes are commonly used in medical settings, households, and various industries to sterilize personal items, tools, and devices. <b>Household UV-C Sterilization Box:</b><ul><li><b>Size:</b> Slightly larger than portable units, designed for home use to disinfect a wide range of objects such as toys, kitchen utensils, masks, wallets, and even groceries.</li><li><b>Applications:</b> Used in households for regular disinfection of everyday items.</li><li><b>Features:</b><ul><li>Multiple compartments or trays for holding several items</li><li>Automatic shutoff after a set time</li><li>Suitable for objects like baby bottles, phones, remotes, etc.</li></ul></li></ul>",
         "image": "./assets/img/products/disinfection_box.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 8,
         "name": "DRYER BOX",
-        "description": "Provides controlled drying for components, tools, or materials by regulating temperature and humidity. Commonly used in laboratories, electronics, and manufacturing industries.",
+        "description": "Provides controlled drying for components, tools, or materials by regulating temperature and humidity. Commonly used in laboratories, electronics, and manufacturing industries. <b>How it works:</b> These are small-scale machines used in manufacturing or industrial processes to dry products or components after production, cleaning, or coating. They often use forced air, infrared, or vacuum drying methods. <b>Applications:</b> Used in industries like automotive, aerospace, or pharmaceuticals to dry components or finished products. <b>Features:</b><ul><li>High-capacity drying chamber</li><li>Advanced temperature and airflow control for precision drying</li><li>Often integrated into assembly lines for continuous drying processes</li></ul><b>Example:</b> Drying parts in manufacturing plants after the processes.",
         "image": "./assets/img/products/dryer_box.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 9,
         "name": "VERTICAL TURRET LATHE MACHINE",
-        "description": "A robust machine for machining heavy, large-diameter work pieces. It performs turning, facing, and boring with precision, making it ideal for automotive and aerospace components.",
-        "image": "./assets/img/products/kundi_making_machine.jpg",
+        "description": "A robust machine for machining heavy, large-diameter work pieces. It performs turning, facing, and boring with precision, making it ideal for automotive and aerospace components. <b>USP:</b><ul><li><b>Efficiency:</b> The turret tool holder allows for quick tool changes, reducing downtime between operations.</li><li><b>Space-Saving:</b> The vertical design can be more space-efficient, especially in shops with limited floor space.</li><li><b>Enhanced Stability:</b> The design provides better rigidity and stability, leading to improved machining accuracy.</li><li><b>Versatility:</b> Capable of performing multiple operations on a single setup, increasing productivity.</li></ul>",
+        "image": "./assets/img/products/vertical_turret_lathe_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 10,
         "name": "SHEET LOADING STATION",
         "description": "Facilitates the automated or manual loading of sheets into processing machines, reducing manual effort and ensuring safety during operations.",
-        "image": "./assets/img/products/magnetic_separator.jpg",
+        "image": "./assets/img/products/sheet_loading_station.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 11,
         "name": "PIPE NOTCHING MACHINE",
-        "description": "Produces precise notches or grooves in pipes for welding and assembly applications. Suitable for plumbing, fabrication, and construction industries.",
-        "image": "./assets/img/products/oil_skimmer.jpg",
+        "description": "Produces precise notches or grooves in pipes for welding and assembly applications. Suitable for plumbing, fabrication, and construction industries. <ul><li><strong>Precision and Consistency:</strong> Machines create accurate, repeatable notches, ensuring high-quality joints.</li><li><strong>Time and Cost Savings:</strong> Reduces the time spent on manual cutting and fitting of pipes.</li><li><strong>Versatility:</strong> Supports a wide range of pipe sizes, materials, and angles.</li><li><strong>Reduced Welding Work:</strong> Cleaner notches mean less grinding, welding, and rework.</li></ul>",
+        "image": "./assets/img/products/pipe_notching_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 12,
         "name": "RIVETING PRESS MACHINE",
-        "description": "Provides a fast and efficient method for riveting components in various industries. Its consistent force application ensures strong, reliable joints in metal or plastic parts.",
-        "image": "./assets/img/products/vertical_stopper.jpg",
+        "description": "Provides a fast and efficient method for riveting components in various industries. Its consistent force application ensures strong, reliable joints in metal or plastic parts. <ul><li><strong>Automotive Industry:</strong> Joining sheet metal parts in car frames, doors, and structural components.</li><li><strong>Aerospace Industry:</strong> Assembling aircraft structures, fuselage, and wings.</li><li><strong>Electrical Appliances:</strong> Used in manufacturing enclosures for electrical and electronic devices.</li><li><strong>Furniture Production:</strong> Joining metal frames, hinges, and furniture fitting.</li></ul>",
+        "image": "./assets/img/products/riveting_press_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 13,
         "name": "VIBRATOR MACHINE",
-        "description": "Utilizes high-frequency vibrations to compact materials, improve density, or polish components. Widely used in construction, metalworking, and finishing industries.",
-        "image": "./assets/img/products/vertical_turret_lathe_machine.jpg",
+        "description": "Utilizes high-frequency vibrations to compact materials, improve density, or polish components. Widely used in construction, metalworking, and finishing industries. <ul><li><strong>Concrete Compaction:</strong> Ensuring concrete is free from air pockets, reducing voids, and enhancing strength.</li><li><strong>Material Flow:</strong> Prevents blockages in chutes, hoppers, and silos to maintain smooth material flow.</li><li><strong>Material Conveying:</strong> Used in conveyor belts, pipes, and tubes to facilitate material movement.</li><li><strong>Screening and Sieving:</strong> Used in vibratory screens to separate and classify materials by size.</li><li><strong>Precast Manufacturing:</strong> Vibrating tables are used to compact molds and ensure consistency in product density.</li></ul>",
+        "image": "./assets/img/products/vibrator_machine.jpg",
         "category": "Special Purpose Machines"
     },
+    
     {
         "id": 14,
         "name": "SEMI-AUTOMATIC COW DUNG LOG MAKING MACHINE",
-        "description": "Converts cow dung into fuel logs or compost material with minimal manual intervention. Supports eco-friendly waste management and sustainable energy solutions.",
-        "image": "./assets/img/products/ginger_washing_machine.jpg",
+        "description": "Converts cow dung into fuel logs or compost material with minimal manual intervention. Supports eco-friendly waste management and sustainable energy solutions. <b>How it works:</b> These machines involve a combination of manual and automated processes. The cow dung is loaded into the machine, which then compresses and forms logs using an automated pressing system. Some steps, like loading and unloading, might be done manually. <b>Applications:</b> Ideal for small to medium-scale production where a moderate level of automation is required. <b>Features:</b><ul><li>Higher productivity compared to manual machines</li><li>Requires less human effort for compressing logs</li><li>Electricity-powered compression</li></ul>",
+        "image": "./assets/img/products/semi_automatic_cow_dung_log_making_machine.jpg",
         "category": "Agricultural Based Machines"
     },
+    
     {
         "id": 15,
         "name": "KUNDI MAKING MACHINE",
-        "description": "Crafts traditional clay pots or containers efficiently, combining precision and speed for pottery industries and artisans.",
-        "image": "./assets/img/products/sheet_loading_station.jpg",
+        "description": "Crafts traditional clay pots or containers efficiently, combining precision and speed for pottery industries and artisans. <b>A cow dung flower pot manual machine</b> is a specialized device designed to mold and press cow dung into the shape of flower pots, providing an eco-friendly, biodegradable alternative to traditional plastic or ceramic pots. These pots are often used for gardening and can also break down into the soil, acting as organic fertilizer as they decompose. The machine operates manually, usually through a lever or a screw press, to shape the cow dung mixture into flower pots. <b>Benefits of a Manual Cow Dung Flower Pot Machine:</b><ul><li>Low Cost: Manual machines are affordable and ideal for small-scale operations, rural artisans, and farmers.</li><li>Eco-Friendly: Helps reduce plastic use by providing a sustainable alternative. The cow dung pots are biodegradable and can be used directly in the soil.</li><li>Energy-Free Operation: Does not require electricity, making it suitable for off-grid areas.</li><li>Customizable Pot Design: With different molds, users can create various pot sizes and shapes to meet market demand.</li></ul>",
+        "image": "./assets/img/products/kundi_making_machine.jpg",
         "category": "Agricultural Based Machines"
     },
+    
     {
         "id": 16,
         "name": "GINGER WASHING MACHINE",
         "description": "Effectively washes ginger roots in bulk, removing dirt and debris while maintaining the natural texture. Suitable for agricultural processing units and spice production industries.",
-        "image": "./assets/img/products/product_16.jpg",
+        "image": "./assets/img/products/ginger_washing_machine.jpg",
         "category": "Agricultural Based Machines"
     },
+
     {
         "id": 17,
         "name": "CHAIN BAR TRANSFER TABLE",
-        "description": "A robust and efficient system for transferring heavy materials such as billets, rods, or metal bars across production lines. Its chain-driven mechanism ensures synchronized and smooth operations, reducing manual handling and increasing production efficiency in rolling mills.",
-        "image": "./assets/img/products/product_17.jpg",
+        "description": "A robust and efficient system for transferring heavy materials such as billets, rods, or metal bars across production lines. Its chain-driven mechanism ensures synchronized and smooth operations, reducing manual handling and increasing production efficiency in rolling mills. <ul><li>Chain Drive System: The primary driving force of the transfer table, consisting of heavy-duty chains, which run underneath the surface and provide the motion to move the load.</li><li>Bars or Slats: These are metal rods or slats attached to the chain. The items to be transferred are placed on these bars, which move horizontally or vertically across the conveyor line.</li><li>Transfer Mechanism: The transfer table can move items in multiple directions—sideways, forward, or backward—depending on the system’s design. It may lift the items slightly to transfer them to a perpendicular conveyor.</li><li>Motorized System: Typically, an electric motor powers the chain system, which controls the speed and movement of the materials being transferred.</li></ul><b>Applications of Chain Bar Transfer Tables:</b><ul><li>Manufacturing: Used to move heavy loads such as steel coils, automotive parts, or large assemblies between different production lines or workstations.</li><li>Warehousing and Distribution: Chain bar tables are employed to transfer large pallets or packages between conveyor belts, facilitating the loading or unloading process.</li><li>Sheet Metal Handling: Ideal for moving heavy metal sheets or slabs between cutting, welding, or painting stations in a metal fabrication facility.</li><li>Automotive Industry: Used to transfer car frames, chassis, or large assemblies between different points in an assembly line.</li></ul>",
+        "image": "./assets/img/products/chain_bar_transfer_table.jpg",
         "category": "Rolling Mill Equipment Machines"
-    },
+    },  
+
     {
         "id": 18,
         "name": "CLAMPING UNIT",
-        "description": "This unit firmly holds workpieces during machining, cutting, or fabrication processes, preventing movement and ensuring precise alignment. Its strong clamping force makes it ideal for handling large and heavy materials in industrial applications.",
-        "image": "./assets/img/products/product_18.jpg",
+        "description": "This unit firmly holds workpieces during machining, cutting, or fabrication processes, preventing movement and ensuring precise alignment. Its strong clamping force makes it ideal for handling large and heavy materials in industrial applications. <b>Hydraulic Pipe Clamping Units:</b> These units use hydraulic power to apply pressure to clamp the pipes securely. They are ideal for holding large-diameter or heavy pipes in place with high force. <ul><li>Applications: Commonly used in pipe welding, heavy-duty fabrication, and pipeline installation.</li><li>Advantages: Provides strong and uniform pressure, reducing the chance of slippage during critical operations such as welding or cutting.</li></ul><b>Applications:</b><ul><li>Oil & Gas Pipelines: Clamping units are used for aligning and welding large-diameter steel pipes in pipelines.</li><li>Construction and Plumbing: For holding pipes securely during installation or repair.</li><li>Manufacturing and Fabrication: To keep steel pipes in place during cutting, welding, or machining operations.</li><li>Shipbuilding and Heavy Industry: Steel pipes are often used in these sectors for transporting fluids or gases, and secure clamping is crucial for handling them.</li></ul>",
+        "image": "./assets/img/products/clamping_unit.jpg",
         "category": "Rolling Mill Equipment Machines"
     },
+    
     {
         "id": 19,
         "name": "DISAPPEARING STOPPER",
         "description": "A retractable stopper designed to temporarily halt the movement of materials on a conveyor or processing line. It is engineered to disappear seamlessly after use, enabling continuous and uninterrupted production flow in rolling mills.",
-        "image": "./assets/img/products/product_19.jpg",
+        "image": "./assets/img/products/disappearing_stopper.jpg",
         "category": "Rolling Mill Equipment Machines"
     },
+
     {
         "id": 20,
         "name": "VERTICAL STOPPER",
         "description": "A vertically positioned stopper that controls and aligns materials with precision during handling. Commonly used in rolling mills and fabrication units to ensure proper positioning and reduce material waste.",
-        "image": "./assets/img/products/product_20.jpg",
+        "image": "./assets/img/products/vertical_stopper.jpg",
         "category": "Rolling Mill Equipment Machines"
     },
+
     {
         "id": 21,
         "name": "BAR ALIGNER",
-        "description": "Specially designed to align and straighten bars for smooth processing in rolling mill operations. This machine improves production accuracy and ensures that bars meet required specifications before entering the next phase.",
-        "image": "./assets/img/products/product_21.jpg",
+        "description": "Specially designed to align and straighten bars for smooth processing in rolling mill operations. This machine improves production accuracy and ensures that bars meet required specifications before entering the next phase. <ul><li><strong>Construction:</strong> Ensuring reinforcement bars (rebar) are properly aligned for use in concrete construction.</li><li><strong>Automotive:</strong> Straightening components before they undergo further processing like cutting or welding.</li><li><strong>Metalworking:</strong> Used to prepare materials for further fabrication or assembly lines, improving the quality of the final product.</li></ul>",
+        "image": "./assets/img/products/.jpg",
         "category": "Rolling Mill Equipment Machines"
     },
+    
     {
         "id": 22,
         "name": "ROLLER CONVEYOR TABLE",
-        "description": "A heavy-duty conveyor table featuring rollers that enable the smooth and efficient transportation of metal bars, sheets, or billets across production lines. Ideal for handling large and bulky materials, it reduces manual effort and increases operational efficiency.",
-        "image": "./assets/img/products/product_22.jpg",
+        "description": "A heavy-duty conveyor table featuring rollers that enable the smooth and efficient transportation of metal bars, sheets, or billets across production lines. Ideal for handling large and bulky materials, it reduces manual effort and increases operational efficiency. <ul><li><strong>Warehousing & Distribution:</strong> Used to transport goods between different stages of processing or shipping.</li><li><strong>Assembly Lines:</strong> For assembly or inspection of products as they move through different workstations.</li><li><strong>Packaging & Sorting:</strong> Facilitates the handling of packaged items or sorted materials to streamline distribution.</li></ul>",
+        "image": "./assets/img/products/case_cascade_conveyor.jpg",
         "category": "Rolling Mill Equipment Machines"
-    },
+    },    
     {
         "id": 23,
         "name": "PNEUMATIC JUMBO ROLL SLITTING MACHINE",
-        "description": "A highly precise machine for cutting jumbo abrasive rolls into smaller, uniform strips. It uses pneumatic control for efficient operation, ensuring minimal waste and high-quality slits suitable for a variety of industrial applications.",
-        "image": "./assets/img/products/product_23.jpg",
+        "description": "A highly precise machine for cutting jumbo abrasive rolls into smaller, uniform strips. It uses pneumatic control for efficient operation, ensuring minimal waste and high-quality slits suitable for a variety of industrial applications. <ul><li><strong>High Efficiency:</strong> Pneumatic systems allow for high-speed operations and precise tension control, leading to faster production times.</li><li><strong>Precise Slitting:</strong> The use of pneumatic control mechanisms ensures a consistent and accurate cut, reducing waste and material damage.</li><li><strong>Versatility:</strong> These machines can handle a variety of materials, from paper and film to nonwoven fabrics and foils, making them versatile for different industries.</li><li><strong>Reduced Maintenance:</strong> Pneumatic systems are relatively easy to maintain compared to mechanical systems, as they involve fewer moving parts that are subject to wear and tear.</li><li><strong>Adjustability:</strong> Pneumatic controls allow for quick and precise adjustments, improving the machine’s adaptability to different roll sizes and material types.</li></ul><strong>Key Components:</strong><ul><li><strong>Unwinding Stand:</strong> Where the jumbo roll is mounted and unwound as it moves through the slitting process.</li><li><strong>Slitting Blades:</strong> These are rotary or fixed blades that cut the jumbo roll into narrower rolls.</li><li><strong>Pneumatic Control System:</strong> Uses compressed air to control tension, blade positioning, and the speed of the slitting process.</li><li><strong>Rewinding Stand:</strong> The slit material is wound into smaller rolls on this part of the machine.</li><li><strong>Control Panel:</strong> Operators use this to monitor and adjust settings like speed, tension, and cutting precision.</li></ul>",
+        "image": "./assets/img/products/pneumatic_jumbo_roll_slitting_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 24,
         "name": "WIDE BELT PRESS MACHINE",
-        "description": "This machine applies controlled pressure and heat to abrasive belts, securely bonding them for durability and reliability. It ensures strong joints, making the belts suitable for demanding industrial sanding and grinding tasks.",
-        "image": "./assets/img/products/product_24.jpg",
+        "description": "This machine applies controlled pressure and heat to abrasive belts, securely bonding them for durability and reliability. It ensures strong joints, making the belts suitable for demanding industrial sanding and grinding tasks. <ul><li><strong>Wide Surface Area:</strong> As the name suggests, a wide belt press machine utilizes wide belts (often several meters wide) to apply pressure uniformly across large surfaces of materials. This wide coverage makes it ideal for high-volume production and processing of materials that come in large sheets or rolls.</li><li><strong>Pressure Application:</strong> The machine applies controlled pressure to the material by passing it between two or more rubber-coated or metal belts. The pressure can be regulated to ensure optimal compression or bonding of the material. The belts themselves move in a continuous loop, ensuring consistent and even application of force across the material.</li><li><strong>High-Precision Control:</strong> Many wide belt press machines are equipped with precise controls for pressure, temperature, and speed to ensure consistent results. This is crucial in industries where the quality and uniformity of the processed material are key.</li><li><strong>Heating or Drying:</strong> Some wide belt press machines have heating elements that help dry or cure the material being processed. In industries like paper or textile manufacturing, the application of heat through the press can help set or finish the material, making it stronger, smoother, or more resistant to environmental factors.</li><li><strong>Continuous Operation:</strong> These machines typically operate in a continuous mode, where the material is fed into the machine, processed, and then exited as a finished product. The continuous operation is a key feature that enables high throughput in large-scale production environments.</li></ul>",
+        "image": "./assets/img/products/wide_belt_press_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
     {
         "id": 25,
         "name": "STRAIGHT FLEXING MACHINE",
-        "description": "Improves the flexibility and usability of abrasive materials by processing them in a straight flexing motion. This enhances the durability and adaptability of the materials for various applications, ensuring consistent quality in manufacturing.",
-        "image": "./assets/img/products/product_25.jpg",
+        "description": "Improves the flexibility and usability of abrasive materials by processing them in a straight flexing motion. This enhances the durability and adaptability of the materials for various applications, ensuring consistent quality in manufacturing. <ul><li><strong>Improved Flexibility:</strong> Processes abrasive materials in a straight flexing motion to increase their flexibility, making them more adaptable for different uses.</li><li><strong>Durability:</strong> Enhances the strength and longevity of the materials, ensuring they withstand wear and tear during industrial processes.</li><li><strong>Consistency in Quality:</strong> Ensures that all processed materials maintain high-quality standards, leading to more reliable and effective manufacturing outcomes.</li><li><strong>Enhanced Usability:</strong> Increases the range of applications for abrasive materials, making them suitable for a broader array of industrial tasks.</li></ul>",
+        "image": "./assets/img/products/straight_flexing_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 26,
         "name": "WIDE BELT CUTTING MACHINE",
-        "description": "A specialized machine for cutting wide abrasive belts into desired sizes and shapes with exceptional precision. It is essential for producing custom belts tailored to specific industrial requirements.",
-        "image": "./assets/img/products/product_26.jpg",
+        "description": "A specialized machine for cutting wide abrasive belts into desired sizes and shapes with exceptional precision. It is essential for producing custom belts tailored to specific industrial requirements. <ul><li><strong>Infeed and Outfeed Rollers:</strong> The material is unwound from a large roll at the infeed section of the machine and is pulled through the cutting zone by rollers. After the material is cut, it exits through the outfeed section, either as cut sheets, strips, or rolls, depending on the configuration.</li><li><strong>Cutting Section:</strong> The cutting section is where the actual cutting happens. This section may contain rotary cutting blades, oscillating knives, or laser cutters, depending on the machine type and the material being processed.</li><li><strong>Drive Mechanism:</strong> The drive system powers the rollers, belt, and cutting mechanisms, ensuring smooth and consistent movement of the material through the machine.</li><li><strong>Tension Control System:</strong> Tension control mechanisms are used to maintain the right amount of tension on the material as it passes through the machine. This ensures accurate cuts and prevents material from bunching or becoming slack.</li><li><strong>Control Panel:</strong> The control panel is used by the operator to adjust settings such as cutting speed, blade position, and the tension of the material. In modern machines, the control panel may also be automated with programmable logic controllers (PLC) for more precise and efficient operation.</li></ul>",
+        "image": "./assets/img/products/wide_belt_cutting_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 27,
         "name": "BACK SKIVING MACHINE",
-        "description": "Removes a thin layer of material from the back of abrasive belts to prepare them for smooth and seamless joining. This machine enhances the overall functionality and performance of the belts during heavy-duty operations.",
-        "image": "./assets/img/products/product_27.jpg",
+        "description": "Removes a thin layer of material from the back of abrasive belts to prepare them for smooth and seamless joining. This machine enhances the overall functionality and performance of the belts during heavy-duty operations. <ul><li><strong>Skiving Leather or Other Materials:</strong> The main purpose of a back skiving machine is to thin the leather or material from its underside (the 'back' side) to achieve a smooth, uniform thickness. This process is commonly applied to leather used in the manufacture of shoes, bags, and other leather products. The machine removes excess material, especially in areas where the thickness needs to be reduced for better flexibility, comfort, or easier stitching.</li><li><strong>Edge Preparation:</strong> The machine is also used for shaping and smoothing the edges of leather or other materials, particularly for items that require precise and neat seams, like shoe uppers, belts, or wallets. Skiving can also help round off or taper the edges of leather pieces to prevent bulky seams or rough finishes.</li><li><strong>Thickness Control:</strong> A key feature of the back skiving machine is its ability to precisely control the thickness of the material as it is skived. This ensures that materials are thinned to the exact specifications required for the final product.</li><li><strong>Shaving for Bonding or Stitching:</strong> Skiving is often performed in preparation for bonding or stitching. By removing excess material, it creates a smoother and more even surface that will allow for better adhesion during gluing or more precise stitching.</li></ul>",
+        "image": "./assets/img/products/back_skiving_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 28,
         "name": "ABRASIVE MULTI-SLITTING MACHINE",
-        "description": "Designed to slit multiple abrasive sheets or rolls simultaneously into smaller, uniform strips. It significantly boosts production efficiency and is ideal for large-scale abrasive manufacturing processes.",
-        "image": "./assets/img/products/product_28.jpg",
+        "description": "Designed to slit multiple abrasive sheets or rolls simultaneously into smaller, uniform strips. It significantly boosts production efficiency and is ideal for large-scale abrasive manufacturing processes. <ul><li><strong>Abrasive Belt Manufacturing:</strong> In the abrasive belt industry, such machines are used to slit wide rolls of abrasive cloth or paper into narrow strips that will be used in the production of abrasive sanding belts, grinding belts, polishing belts, and other similar products. The machine’s precision ensures that each belt section is cut to the exact width, which is critical for ensuring uniformity and high performance during the abrasive process.</li><li><strong>Sanding Sheets Production:</strong> For sanding sheets or sandpaper, multi-slitting machines cut large sheets into smaller sections or strips, making them ready for packaging and distribution. These sheets are often used in woodworking, metalworking, or automotive repair, so consistent quality and cutting accuracy are paramount.</li><li><strong>Polishing and Grinding Products:</strong> The abrasive multi slitting machine can be used to create narrow strips or sheets of abrasive material that are used in polishing, grinding, and finishing applications in various industries, such as automotive and manufacturing, where these materials are used to smooth surfaces.</li><li><strong>Automotive and Metalworking:</strong> In industries like automotive and metalworking, abrasive materials are commonly used for cutting, sanding, and grinding metals and other hard surfaces. The machine ensures that these abrasive products are accurately sized for specific applications.</li><li><strong>Abrasive Discs and Wheels:</strong> In addition to belts and sheets, abrasive multi slitting machines can also be used to manufacture abrasive discs or grinding wheels by slitting larger discs into smaller ones, providing versatility in abrasive product manufacturing.</li><li><strong>Woodworking:</strong> Woodworkers often use abrasive products like sanding belts, strips, and discs, which are made using abrasive multi slitting machines. These machines help create the abrasives used in sanding and finishing wooden surfaces.</li></ul>",
+        "image": "./assets/img/products/abrasive_multi_slitting_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 29,
         "name": "NARROW BELT PRESS MACHINE",
-        "description": "Specifically engineered to press and bond narrow abrasive belts with uniform pressure. This ensures the belts are durable and capable of meeting the high precision requirements of specialized industrial applications.",
-        "image": "./assets/img/products/product_29.jpg",
+        "description": "Specifically engineered to press and bond narrow abrasive belts with uniform pressure. This ensures the belts are durable and capable of meeting the high precision requirements of specialized industrial applications. <ul><li><strong>Abrasive Belt Production:</strong> One of the most common uses of narrow belt press machines is in the production of abrasive belts. In these applications, the machine is used to press the abrasive material (such as aluminum oxide or silicon carbide) onto a cloth or paper backing to form sanding belts or grinding belts.</li><li><strong>Nonwoven Fabric Manufacturing:</strong> Narrow belt presses are also used in the production of nonwoven fabrics. These fabrics are commonly used in industries such as automotive (for soundproofing, insulation, etc.), medical (for surgical gowns, face masks), and industrial applications (for cleaning pads, polishing cloths). The press applies pressure and sometimes heat to bond fibers together, creating a durable nonwoven material.</li><li><strong>Lamination of Materials:</strong> The machine can be used to laminate thin sheets of materials together, such as plastics, foils, or paper. The combination of heat and pressure helps bond layers securely to form a cohesive, uniform structure.</li><li><strong>Footwear and Textile Industry:</strong> In the footwear industry, narrow belt press machines can be used to bond various layers of material for shoes, such as fabric, leather, or synthetic materials. Similarly, in the textile industry, these machines are used to process woven fabrics or coated materials, ensuring they meet quality standards.</li><li><strong>Industrial Cleaning and Polishing Products:</strong> The narrow belt press machine can be used to produce cleaning cloths, polishing pads, or other abrasive materials used in industrial applications. These materials often require uniform texture and compressive properties that the press machine can deliver.</li><li><strong>Production of Laminated Products:</strong> It can also be used in the production of laminated composite materials, such as those used in furniture, automotive interiors, or construction, where multiple layers need to be bonded under pressure.</li></ul>",
+        "image": "./assets/img/products/narrow_belt_press_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 30,
         "name": "NARROW BELT CUTTING MACHINE",
-        "description": "A precision machine that cuts narrow abrasive belts to specific widths. It is essential for creating custom belts used in precision grinding, sanding, and finishing applications.",
-        "image": "./assets/img/products/product_30.jpg",
+        "description": "A precision machine that cuts narrow abrasive belts to specific widths. It is essential for creating custom belts used in precision grinding, sanding, and finishing applications. <ul><li><strong>Abrasive Belt Manufacturing:</strong> One of the primary applications of narrow belt cutting machines is in the production of abrasive belts. In this case, the machine cuts wide rolls of abrasive cloth or paper into narrow strips that will later be used as sanding or grinding belts for industrial applications.</li><li><strong>Textile and Fabric Industry:</strong> In the textile industry, narrow belt cutting machines are used to cut narrow strips of fabric, leather, or nonwoven materials into specific widths, which are then used for garment manufacturing, upholstery, or other textile applications. These machines are also used in the production of narrow woven belts, strapping materials, and reinforced fabrics.</li><li><strong>Conveyor Belts:</strong> Narrow belt cutting machines can be used to cut conveyor belts into precise widths and lengths. Conveyor belts are commonly used in warehousing, mining, and manufacturing plants, and cutting them accurately ensures that they fit correctly in conveyor systems.</li><li><strong>Rubber and Plastics Industry:</strong> In the rubber and plastics industry, narrow belt cutting machines are used to slice through rubber strips, plastic sheets, and other flexible materials. These strips are often used in automotive parts, seals, gaskets, and other applications.</li><li><strong>Packaging Industry:</strong> Narrow belt cutting machines can also be used in the packaging industry to cut plastic films or wrapping materials into narrow widths for creating packaging bands, stretch wraps, and other materials used in product packaging.</li><li><strong>Automotive Industry:</strong> In the automotive industry, these machines can cut narrow strips of material such as fabric, foam, rubber, and synthetic materials for use in products like seat covers, weatherstrips, and gaskets.</li><li><strong>Medical Industry:</strong> Narrow belt cutting machines are used in the medical field to cut nonwoven fabrics, medical tapes, and other medical materials into strips for use in bandages, wound care, and other healthcare applications.</li></ul>",
+        "image": "./assets/img/products/narrow_belt_cutting_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 31,
         "name": "MULTI-SLITTING MACHINE",
-        "description": "A versatile machine capable of cutting multiple materials, including abrasives, into uniform strips in a single operation. This reduces production time while maintaining high accuracy and quality.",
-        "image": "./assets/img/products/product_31.jpg",
+        "description": "A versatile machine capable of cutting multiple materials, including abrasives, into uniform strips in a single operation. This reduces production time while maintaining high accuracy and quality. <ul><li><strong>Multiple Slitting:</strong> The primary function of a multi slitting machine is to simultaneously cut a wide roll of material into several narrow strips. The machine can typically make multiple cuts (usually two or more) along the width of the material, allowing the operator to create several smaller rolls from one large roll. These machines are often designed to handle different materials, such as flexible films, nonwoven fabrics, abrasive materials, and papers.</li><li><strong>Cutting Mechanism:</strong> The slitting process involves feeding a large roll of material into the machine, where it is passed through rotary knives or blades that make clean, precise cuts. The slitting process may use different types of knives, such as razor blades, score cutting, or shear cutting, depending on the material being processed and the desired finish.</li><li><strong>Slitting Options:</strong> Multi slitting machines can be configured for multiple slitting setups, where the material can be divided into a variety of widths. The operator can select the width of each strip before running the machine. The number of slitting stations (blades) varies, and some multi-slitting machines can handle up to 12 or more slits simultaneously.</li><li><strong>Adjustable Blade Positions:</strong> Most multi slitting machines have adjustable blade positions, allowing operators to set the distance between the blades, thereby controlling the width of the cut strips. This flexibility is crucial when producing various sizes of strips from a single roll.</li><li><strong>Material Handling:</strong> These machines typically include unwinding systems to feed the material into the slitting zone and rewinding systems to collect the slit strips into smaller rolls or coils. The material handling systems can also include tension control to prevent the material from stretching, wrinkling, or misaligning during the slitting process.</li><li><strong>Control Systems:</strong> Multi slitting machines often feature digital control systems or PLC (Programmable Logic Controller) for easy setup and operation. These controls allow for accurate adjustments to blade positions, cutting speed, and tension, improving operational efficiency and ensuring uniformity in the final product.</li><li><strong>Edge Quality:</strong> Clean and precise edges are essential when slitting materials, especially for abrasive materials, plastics, or films. Multi slitting machines often include guillotine-style or rotary shear cutters to ensure smooth, burr-free edges.</li><li><strong>Safety Features:</strong> As multi slitting machines involve high-speed rotary blades or knives, safety features are critical. These include protective covers, emergency stop buttons, and interlock systems to prevent accidental exposure to moving parts.</li></ul>",
+        "image": "./assets/img/products/multi_slitting_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 32,
         "name": "ABRASIVE ROUGHING MACHINE",
-        "description": "Prepares abrasive materials by creating a rough surface texture that enhances adhesion and performance. This is particularly useful for abrasive tools used in heavy-duty grinding and sanding.",
-        "image": "./assets/img/products/product_32.jpg",
+        "description": "Prepares abrasive materials by creating a rough surface texture that enhances adhesion and performance. This is particularly useful for abrasive tools used in heavy-duty grinding and sanding. <ul><li><strong>Abrasive Material Usage:</strong> The machine uses abrasive tools (e.g., grinding wheels, abrasive belts, or grinding discs) to cut, grind, or polish the surface of a material. The abrasive action removes material from the work piece through friction and wear. Abrasive materials can be coarse or fine depending on the type of operation being carried out. For roughing, coarser abrasives are used to remove material at a fast rate and shape the part before any finishing processes are done.</li><li><strong>High Material Removal Rate:</strong> Abrasive roughing machines are designed to remove large amounts of material quickly and efficiently. They typically operate at higher speeds compared to finishing processes, focusing on rough shaping or material reduction. This high material removal rate is crucial for initial stages of machining, such as preparing castings or roughing out large parts before more precise machining or polishing.</li></ul>",
+        "image": "./assets/img/products/abrasive_roughing_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
+    
     {
         "id": 33,
         "name": "SMALL ROLL CROSS FLEXING MACHINE",
         "description": "Processes small abrasive rolls by flexing them diagonally, improving their usability in specific industrial and precision applications. Ideal for custom abrasive tool manufacturing.",
-        "image": "./assets/img/products/product_33.jpg",
+        "image": "./assets/img/products/small_roll_cross_flexing_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
     {
         "id": 34,
         "name": "ABRASIVE SHEET CUTTING MACHINE",
         "description": "Cuts abrasive sheets into precise dimensions and shapes, catering to diverse industrial needs such as polishing, grinding, and surface finishing.",
-        "image": "./assets/img/products/product_34.jpg",
+        "image": "./assets/img/products/abrasive_sheet_cutting_machine.jpg",
         "category": "Abrasive Conversion Machines"
     },
     {
         "id": 35,
         "name": "ABRASIVE PAPER TESTING UNIT",
         "description": "A sophisticated unit that rigorously tests the strength, durability, and performance of abrasive papers. It ensures that the products meet industry standards and are reliable for demanding applications.",
-        "image": "./assets/img/products/product_35.jpg",
+        "image": "./assets/img/products/abrasive_paper_testing_unit.jpg",
         "category": "Abrasive Conversion Machines"
     }
 

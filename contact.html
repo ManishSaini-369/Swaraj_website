@@ -43,13 +43,14 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/logo/logo.png" alt="">
+        <img style="border-radius: 10px;" src="assets/logo/logo.png" alt="">
+        <h1 id="website_name" class="sitename">Swaraj Industries</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="industries.html">Industries</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html" class="active">Contact</a></li>
@@ -117,7 +118,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contact-form" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
@@ -127,7 +128,7 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                <input type="text" class="form-control" name="subject" id="product" placeholder="Subject" required="">
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
@@ -171,7 +172,7 @@
             <h3 class="widget-heading">Navigation</h3>
             <ul class="list-unstyled float-start me-5">
               <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
+              <li><a href="industries.html">Industries</a></li>
               <li><a href="products.html">Products</a></li>
             </ul>
             <ul class="list-unstyled float-start">
@@ -234,6 +235,40 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  
+  <script>
+    emailjs.init("vivtfCpeGS54ksH9i"); // Replace 'your-user-id' with your EmailJS User ID
+  </script>
+
+  <script type="text/javascript">
+    document.getElementById("contact-form").addEventListener("submit", function(event){
+      event.preventDefault(); // Prevent the form from submitting the traditional way
+      
+      var formData = new FormData(this);
+      var name = formData.get("name");
+      var email = formData.get("email");
+      var product = formData.get("product");
+      var message = formData.get("message");
+      
+      // Optional: show the loading message
+      document.querySelector(".loading").style.display = "block";
+      
+      // Sending the email with EmailJS
+      emailjs.sendForm("service_wqqrgjl", "template_8itn23k", this)
+        .then(function(response) {
+          // Hide the loading message and show the success message
+          document.querySelector(".loading").style.display = "none";
+          document.querySelector(".sent-message").style.display = "block";
+          console.log("SUCCESS", response);
+        }, function(error) {
+          // Hide the loading message and show the error message
+          document.querySelector(".loading").style.display = "none";
+          document.querySelector(".error-message").style.display = "block";
+          console.log("FAILED", error);
+        });
+    });
+  </script>
 
 </body>
 

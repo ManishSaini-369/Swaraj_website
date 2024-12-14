@@ -27,13 +27,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Active
-  * Template URL: https://bootstrapmade.com/active-bootstrap-website-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body class="portfolio-details-page">
@@ -43,13 +37,14 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/logo/logo.png" alt="">
+        <img style="border-radius: 10px;" src="assets/logo/logo.png" alt="">
+        <h1 id="website_name" class="sitename">Swaraj Industries</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="industries.html">Industries</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -68,7 +63,7 @@
         <h1>Product Details</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
             <li class="current">Product Details</li>
           </ol>
         </nav>
@@ -159,7 +154,7 @@
             <h3 class="widget-heading">Navigation</h3>
             <ul class="list-unstyled float-start me-5">
               <li><a href="index.html">Home</a></li>
-              <li><a href="services.html">Services</a></li>
+              <li><a href="industries.html">Industries</a></li>
               <li><a href="products.html">Products</a></li>
             </ul>
             <ul class="list-unstyled float-start">
@@ -177,20 +172,20 @@
           <div class="widget">
             <h3 class="widget-heading">Connect</h3>
             <ul class="list-unstyled social-icons light mb-3">
-              <li>
+              <!-- <li>
                 <a href="#"><span class="bi bi-facebook"></span></a>
-              </li>
+              </li> -->
               <li>
+                <a href="https://www.instagram.com/swaraj.engineering/profilecard/?igsh=ODBkdHczOWlhZDV6   "><span class="bi bi-instagram"></span></a>
+              </li>
+              <!-- <li>
                 <a href="#"><span class="bi bi-twitter-x"></span></a>
+              </li> -->
+              <li>
+                <a href="https://www.linkedin.com/company/swaraj-engineering/?viewAsMember=true "><span class="bi bi-linkedin"></span></a>
               </li>
               <li>
-                <a href="#"><span class="bi bi-linkedin"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="bi bi-google-play"></span></a>
+                <a href="https://www.youtube.com/channel/UCBB_nPSvg3iWFLhlEN6nJjQ "><span class="bi bi-youtube"></span></a>
               </li>
             </ul>
           </div>
@@ -222,6 +217,12 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  
+<script>
+  emailjs.init("vivtfCpeGS54ksH9i"); // Replace 'your-user-id' with your EmailJS User ID
+</script>
+
   <script>
     // Get product ID from URL query string
     const params = new URLSearchParams(window.location.search);
@@ -240,6 +241,8 @@
       document.getElementById('product-name').textContent = product.name;
       document.getElementById('product-description').innerHTML = product.description; // Use innerHTML to render HTML
 
+      // Automatically fill the product name in the enquiry form
+      document.getElementById('product').value = product.name; // Fill the product name in the input field
       // Optional: Handle other product properties as needed
     } else {
       // If product not found, display an error or fallback message
@@ -250,24 +253,31 @@
   .catch(error => console.error('Error loading product data:', error));
 
   
-    // Handle enquiry form submission
-    document.getElementById('enquiry-form').addEventListener('submit', function (e) {
+  // Handle enquiry form submission
+  document.getElementById('enquiry-form').addEventListener('submit', function (e) {
       e.preventDefault();
-  
+
       // Capture form data
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const product = document.getElementById('product').value;
-      const message = document.getElementById('message').value;
-  
-      // Example: Show alert with form data (replace this with actual backend integration)
-      alert(`Enquiry Submitted:\n\nName: ${name}\nEmail: ${email}\nProduct: ${product}\nMessage: ${message}`);
-  
-      // Reset form and close modal
-      document.getElementById('enquiry-form').reset();
-      const modal = bootstrap.Modal.getInstance(document.getElementById('enquiryModal'));
-      modal.hide();
-    });
+      const formData = {
+          name: document.getElementById('name').value,
+          email: document.getElementById('email').value,
+          product: document.getElementById('product').value,
+          message: document.getElementById('message').value,
+      };
+
+      // Send email using EmailJS
+      emailjs.send("service_wqqrgjl", "template_8itn23k", formData)
+          .then(function(response) {
+              console.log("Email sent successfully:", response);
+              alert("Your enquiry has been sent successfully.");
+              // Optionally, reset the form
+              document.getElementById('enquiry-form').reset();
+          }, function(error) {
+              console.error("Error sending email:", error);
+              alert("There was an error sending your enquiry. Please try again.");
+          });
+  });
+
   </script>
   
 </body>
