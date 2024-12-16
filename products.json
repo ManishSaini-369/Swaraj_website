@@ -163,7 +163,7 @@
         "id": 21,
         "name": "BAR ALIGNER",
         "description": "Specially designed to align and straighten bars for smooth processing in rolling mill operations. This machine improves production accuracy and ensures that bars meet required specifications before entering the next phase. <ul><li><strong>Construction:</strong> Ensuring reinforcement bars (rebar) are properly aligned for use in concrete construction.</li><li><strong>Automotive:</strong> Straightening components before they undergo further processing like cutting or welding.</li><li><strong>Metalworking:</strong> Used to prepare materials for further fabrication or assembly lines, improving the quality of the final product.</li></ul>",
-        "image": "./assets/img/products/.jpg",
+        "image": "./assets/img/products/bar_aligner.jpg",
         "category": "Rolling Mill Equipment Machines"
     },
     
