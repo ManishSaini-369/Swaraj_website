@@ -26,11 +26,11 @@ fetch('products.json')
 
         productCard.innerHTML = `
           <div class="card" style="background-color: var(--surface-color); color: var(--heading-color);">
-            <img src="${product.image}" class="card-img-top" style="width: 100%; height: 200px; object-fit: cover" alt="${product.name}">
+            <img src="${product.image}" class="card-img-top" style="width: 100%; height: 200px; object-fit: fill" alt="${product.name}">
             <div class="card-body">
-              <h5 class="card-title" style="font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${product.name}">${product.name}</h5>
+              <h5 class="card-title" style="font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: bolder" title="${product.name}">${product.name}</h5>
               <p class="card-text" style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${limitedDescription}</p>
-              <a href="product.html?id=${product.id}" class="btn btn-primary" style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
+              <a href="product.html?id=${product.id}" class="btn btn-primary" style="background-color: var(--accent-color); border-radius: 30px; border: 2px solid transparent; 
                transition: 0.3s all ease-in-out; font-size: 14px; color: var(--contrast-color) !important;">View Details</a>
             </div>
             
