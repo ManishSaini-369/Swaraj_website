@@ -127,6 +127,25 @@
       </div>
     </div>
   </div>
+
+  <!-- Add this success modal to your HTML -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: var(--surface-color); color: var(--heading-color);">
+      <div class="modal-header">
+        <h5 class="modal-title" id="successModalLabel">Congratulations!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thank you for your enquiry! We have received your request and will reach out to you soon.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
       
 
     </section><!-- /Portfolio Details Section -->
@@ -278,14 +297,31 @@
       emailjs.send("service_wqqrgjl", "template_8itn23k", formData)
           .then(function(response) {
               console.log("Email sent successfully:", response);
-              alert("Your enquiry has been sent successfully.");
-              // Optionally, reset the form
-              document.getElementById('enquiry-form').reset();
+               // Close the enquiry form modal
+              const enquiryModalElement = document.getElementById("enquiryModal");
+              const enquiryModal = bootstrap.Modal.getInstance(enquiryModalElement); // Get existing instance of the modal
+              if (enquiryModal) {
+                  enquiryModal.hide(); // Close the modal
+              }
+
+              // Display the success modal
+              const successModal = new bootstrap.Modal(document.getElementById("successModal"));
+              successModal.show();
+
+              // Reset the form after submission
+              event.target.reset();
           }, function(error) {
               console.error("Error sending email:", error);
               alert("There was an error sending your enquiry. Please try again.");
           });
   });
+  // Perform form validation or AJAX submission here
+  // Simulate a successful form submission for this example
+  // const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+  // successModal.show();
+
+  // // Optionally, reset the form
+  // this.reset();
 
   </script>
   

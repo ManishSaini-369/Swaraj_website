@@ -131,7 +131,7 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="product" placeholder="Subject" required="">
+                <input type="text" class="form-control" name="product" id="product" placeholder="Subject" required="">
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" placeholder="Message" required=""></textarea>
@@ -279,6 +279,19 @@
           console.log("FAILED", error);
         });
     });
+  </script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const ref = urlParams.get('ref');
+    // if (ref === 'homepage') {
+    //     document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+    // }
+
+    if (ref === 'homepage') {
+    document.getElementById('product').value = "Consultation Request";
+    document.getElementById('name').focus();
+    }
+
   </script>
 
 </body>
