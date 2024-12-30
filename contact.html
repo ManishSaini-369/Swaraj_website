@@ -249,7 +249,7 @@
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   
   <script>
-    emailjs.init("EwQYNyB0F_vLsMLIH"); // Replace 'your-user-id' with your EmailJS User ID
+    emailjs.init("uowkGQ5cBKqXtmqWG"); // Replace 'your-user-id' with your EmailJS User ID
   </script>
 
   <script type="text/javascript">
@@ -272,6 +272,8 @@
           document.querySelector(".loading").style.display = "none";
           document.querySelector(".sent-message").style.display = "block";
           console.log("SUCCESS", response);
+          // Reset the form
+          document.getElementById("contact-form").reset();
         }, function(error) {
           // Hide the loading message and show the error message
           document.querySelector(".loading").style.display = "none";
