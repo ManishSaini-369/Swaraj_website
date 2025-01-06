@@ -1066,6 +1066,16 @@ section,
   color: var(--contrast-color);
 }
 
+.card-skeleton {
+  background: linear-gradient(90deg, #f2f2f2 25%, #e0e0e0 50%, #f2f2f2 75%);
+  background-size: 200% 100%;
+  height: 300px;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 4px;
+  border: 2px solid #ccc; /* Added border */
+}
+
+
 /*--------------------------------------------------------------
 # Services 2 Section
 --------------------------------------------------------------*/

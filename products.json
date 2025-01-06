@@ -11,7 +11,7 @@
         "id": 2,
         "name": "MAGNETIC SEPARATOR",
         "description": "Utilizes powerful magnets to separate ferrous materials from fluids, slurries, or powders. Ideal for maintaining purity in manufacturing processes and safeguarding downstream equipment from damage. <b>Applications of Magnetic Separators:</b><ul><li><b>Mining:</b> For separating iron ore, magnetite, and other magnetic minerals from non-magnetic gangue materials.</li><li><b>Recycling:</b> In waste management and scrap yards, magnetic separators recover ferrous metals (like iron and steel) from mixed waste streams (e.g., plastic, glass, aluminum).</li><li><b>Ceramics:</b> To remove iron contamination from raw materials like clay and feldspar.</li><li><b>Chemical Industry:</b> Used to clean raw materials by removing tramp iron or magnetic contaminants.</li><li><b>Food Processing:</b> To remove metal contaminants from food products and ingredients before packaging.</li></ul><b>Benefits of Magnetic Separator Machines:</b><ol><li><b>Increased Purity:</b> They help achieve a higher level of purity in the processed material by removing unwanted metal contaminants.</li><li><b>Cost-Effective:</b> By recovering valuable metals from waste, magnetic separators help reduce raw material costs.</li><li><b>Improved Product Quality:</b> They ensure that final products are free of ferrous contamination, which can improve product quality and safety, particularly in the food and pharmaceutical industries.</li><li><b>Reduced Equipment Wear:</b> Removing ferrous metals from the material stream helps reduce wear and tear on downstream processing equipment.</li><li><b>Environmental Benefits:</b> By recycling metal materials, magnetic separators help reduce the environmental impact associated with mining and metal processing.</li></ol>",
-        "image": "./assets/img/products/magnetic_separator.jpg",
+        "image": "./assets/img/products/magnetic_separator.png",
         "category": "Special Purpose Machines"
     },
     
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "OIL SKIMMER",
         "description": "Skims oil and grease from the surface of water, coolant, or other liquids. Commonly used in industrial settings to improve fluid quality, reduce odors, and enhance overall system efficiency. <b>Applications of Floating Oil Skimmers:</b><ul><li><b>Industrial Wastewater Treatment:</b> Used to remove oil and grease from industrial wastewater before discharge.</li><li><b>Oil Spill Response:</b> Essential for cleaning up oil spills in oceans, rivers, and lakes, protecting aquatic ecosystems.</li><li><b>Refineries and Petrochemical Plants:</b> Continuous oil removal from process water to maintain operational efficiency.</li></ul>",
-        "image": "./assets/img/products/oil_skimmer.jpg",
+        "image": "./assets/img/products/oil_skimmer.png",
         "category": "Special Purpose Machines"
     },
     
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "LEAKAGE TESTING MACHINE",
         "description": "Precisely detects even the smallest leaks in components such as pipes, valves, or tanks, using air, water, or gas under controlled pressure to ensure products meet stringent quality standards. <ul><li>This is a reliable machine that can detect any air or fluid leaks in the component.</li><li>The type of leakage testing machine required will depend on the testing method (air pressure, vacuum, or fluid-based testing) and the specific parameters of the PTO cover.</li><li>Ultra-sensitive for micro-leaks</li><li>High accuracy with a very low leak rate detection</li><li>Can be used in conjunction with vacuum chambers.</li></ul>",
-        "image": "./assets/img/products/leakage_testing_machine.jpg",
+        "image": "./assets/img/products/leakage_testing_machine.png",
         "category": "Special Purpose Machines"
     },
     
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "CASE CADE CONVEYOR",
         "description": "Designed for smooth and efficient movement of materials through a cascading arrangement, this conveyor enhances productivity in industries like manufacturing, food processing, and packaging. <ul><li>Multi-Level Design: The conveyor typically has several layers or platforms where the material flows from one level to another.</li><li>Gravity-Based Movement: Most cascade conveyors use gravity for the downward movement of materials, making them energy-efficient.</li><li>Gentle Material Handling: Ideal for delicate materials that may get damaged in conventional conveyors, such as food items, powders, or granular materials.</li><li>Customizable Flow: The cascade design can be adjusted depending on the material's flow rate and characteristics, controlling how the material moves between levels.</li></ul><b>Applications:</b><ul><li>Food Processing: Cascading conveyors are used to handle food items like cereals, nuts, snacks, or grains where careful handling is crucial to prevent damage.</li><li>Pharmaceuticals: In handling powders or tablets, cascade conveyors ensure gentle movement between different stages.</li><li>Recycling Industry: Used for sorting and separating materials into different categories (e.g., metals, plastics) as they flow downwards.</li></ul>",
-        "image": "./assets/img/products/case_cascade_conveyor.jpg",
+        "image": "./assets/img/products/case_cascade_conveyor.png",
         "category": "Special Purpose Machines"
     },
     
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "COCONUT CUTTING MACHINE",
         "description": "Automates the process of slicing coconuts into desired shapes and sizes, ensuring uniformity and safety. Perfect for food processing units and agricultural businesses. <b>Mature Coconut Cutting Machine</b><ul><li><b>Purpose:</b> These machines cut through the hard shell of mature coconuts, making it easier to process the coconut flesh (copra) or shell for further use.</li><li><b>How it works:</b> The machine uses strong, sharp blades to cut or split the coconut shell, typically separating it into two halves.</li><li><b>Application:</b> Used in coconut oil production, desiccated coconut processing, and other coconut-based product manufacturing.</li><li><b>Features:</b><ul><li>Heavy-duty blades for cutting through hard shells</li><li>Automatic feeding and cutting mechanism for continuous operation</li><li>Customizable blade settings for different cutting sizes</li></ul></li></ul>",
-        "image": "./assets/img/products/coconut_cutting_machine.jpg",
+        "image": "./assets/img/products/coconut_cutting_machine.png",
         "category": "Agricultural Based Machines"
     },
     
@@ -51,7 +51,7 @@
         "id": 7,
         "name": "DISINFECTION BOX",
         "description": "Uses UV light, ozone, or chemical disinfectants to sterilize tools, medical equipment, or personal items, providing a secure environment to eliminate bacteria and viruses effectively. <b>A UV-C sterilization box</b> is a device designed to disinfect and sterilize objects using ultraviolet (UV-C) light. UV-C light has a short wavelength (between 200-280 nm) and is highly effective at killing or inactivating microorganisms, such as bacteria, viruses, and fungi, by disrupting their DNA or RNA. UV-C sterilization boxes are commonly used in medical settings, households, and various industries to sterilize personal items, tools, and devices. <b>Household UV-C Sterilization Box:</b><ul><li><b>Size:</b> Slightly larger than portable units, designed for home use to disinfect a wide range of objects such as toys, kitchen utensils, masks, wallets, and even groceries.</li><li><b>Applications:</b> Used in households for regular disinfection of everyday items.</li><li><b>Features:</b><ul><li>Multiple compartments or trays for holding several items</li><li>Automatic shutoff after a set time</li><li>Suitable for objects like baby bottles, phones, remotes, etc.</li></ul></li></ul>",
-        "image": "./assets/img/products/disinfection_box.jpg",
+        "image": "./assets/img/products/disinfection_box.png",
         "category": "Special Purpose Machines"
     },
     
@@ -59,7 +59,7 @@
         "id": 8,
         "name": "DRYER BOX",
         "description": "Provides controlled drying for components, tools, or materials by regulating temperature and humidity. Commonly used in laboratories, electronics, and manufacturing industries. <b>How it works:</b> These are small-scale machines used in manufacturing or industrial processes to dry products or components after production, cleaning, or coating. They often use forced air, infrared, or vacuum drying methods. <b>Applications:</b> Used in industries like automotive, aerospace, or pharmaceuticals to dry components or finished products. <b>Features:</b><ul><li>High-capacity drying chamber</li><li>Advanced temperature and airflow control for precision drying</li><li>Often integrated into assembly lines for continuous drying processes</li></ul><b>Example:</b> Drying parts in manufacturing plants after the processes.",
-        "image": "./assets/img/products/dryer_box.jpg",
+        "image": "./assets/img/products/dryer_box.png",
         "category": "Special Purpose Machines"
     },
     
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "VERTICAL TURRET LATHE MACHINE",
         "description": "A robust machine for machining heavy, large-diameter work pieces. It performs turning, facing, and boring with precision, making it ideal for automotive and aerospace components. <b>USP:</b><ul><li><b>Efficiency:</b> The turret tool holder allows for quick tool changes, reducing downtime between operations.</li><li><b>Space-Saving:</b> The vertical design can be more space-efficient, especially in shops with limited floor space.</li><li><b>Enhanced Stability:</b> The design provides better rigidity and stability, leading to improved machining accuracy.</li><li><b>Versatility:</b> Capable of performing multiple operations on a single setup, increasing productivity.</li></ul>",
-        "image": "./assets/img/products/vertical_turret_lathe_machine.jpg",
+        "image": "./assets/img/products/vertical_turret_lathe_machine.png",
         "category": "Special Purpose Machines"
     },
     
@@ -75,7 +75,7 @@
         "id": 10,
         "name": "SHEET LOADING STATION",
         "description": "Facilitates the automated or manual loading of sheets into processing machines, reducing manual effort and ensuring safety during operations.",
-        "image": "./assets/img/products/sheet_loading_station.jpg",
+        "image": "./assets/img/products/sheet_loading_station.png",
         "category": "Special Purpose Machines"
     },
     
@@ -115,7 +115,7 @@
         "id": 15,
         "name": "KUNDI MAKING MACHINE",
         "description": "Crafts traditional clay pots or containers efficiently, combining precision and speed for pottery industries and artisans. <b>A cow dung flower pot manual machine</b> is a specialized device designed to mold and press cow dung into the shape of flower pots, providing an eco-friendly, biodegradable alternative to traditional plastic or ceramic pots. These pots are often used for gardening and can also break down into the soil, acting as organic fertilizer as they decompose. The machine operates manually, usually through a lever or a screw press, to shape the cow dung mixture into flower pots. <b>Benefits of a Manual Cow Dung Flower Pot Machine:</b><ul><li>Low Cost: Manual machines are affordable and ideal for small-scale operations, rural artisans, and farmers.</li><li>Eco-Friendly: Helps reduce plastic use by providing a sustainable alternative. The cow dung pots are biodegradable and can be used directly in the soil.</li><li>Energy-Free Operation: Does not require electricity, making it suitable for off-grid areas.</li><li>Customizable Pot Design: With different molds, users can create various pot sizes and shapes to meet market demand.</li></ul>",
-        "image": "./assets/img/products/kundi_making_machine.jpg",
+        "image": "./assets/img/products/kundi_making_machine.png",
         "category": "Agricultural Based Machines"
     },
     
@@ -123,7 +123,7 @@
         "id": 16,
         "name": "GINGER WASHING MACHINE",
         "description": "Effectively washes ginger roots in bulk, removing dirt and debris while maintaining the natural texture. Suitable for agricultural processing units and spice production industries.",
-        "image": "./assets/img/products/ginger_washing_machine.jpg",
+        "image": "./assets/img/products/ginger_washing_machine.png",
         "category": "Agricultural Based Machines"
     },
 
@@ -131,7 +131,7 @@
         "id": 17,
         "name": "CHAIN BAR TRANSFER TABLE",
         "description": "A robust and efficient system for transferring heavy materials such as billets, rods, or metal bars across production lines. Its chain-driven mechanism ensures synchronized and smooth operations, reducing manual handling and increasing production efficiency in rolling mills. <ul><li>Chain Drive System: The primary driving force of the transfer table, consisting of heavy-duty chains, which run underneath the surface and provide the motion to move the load.</li><li>Bars or Slats: These are metal rods or slats attached to the chain. The items to be transferred are placed on these bars, which move horizontally or vertically across the conveyor line.</li><li>Transfer Mechanism: The transfer table can move items in multiple directions—sideways, forward, or backward—depending on the system’s design. It may lift the items slightly to transfer them to a perpendicular conveyor.</li><li>Motorized System: Typically, an electric motor powers the chain system, which controls the speed and movement of the materials being transferred.</li></ul><b>Applications of Chain Bar Transfer Tables:</b><ul><li>Manufacturing: Used to move heavy loads such as steel coils, automotive parts, or large assemblies between different production lines or workstations.</li><li>Warehousing and Distribution: Chain bar tables are employed to transfer large pallets or packages between conveyor belts, facilitating the loading or unloading process.</li><li>Sheet Metal Handling: Ideal for moving heavy metal sheets or slabs between cutting, welding, or painting stations in a metal fabrication facility.</li><li>Automotive Industry: Used to transfer car frames, chassis, or large assemblies between different points in an assembly line.</li></ul>",
-        "image": "./assets/img/products/chain_bar_transfer_table.jpg",
+        "image": "./assets/img/products/chain_bar_transfer_table.png",
         "category": "Rolling Mill Equipment Machines"
     },  
 
@@ -139,7 +139,7 @@
         "id": 18,
         "name": "CLAMPING UNIT",
         "description": "This unit firmly holds workpieces during machining, cutting, or fabrication processes, preventing movement and ensuring precise alignment. Its strong clamping force makes it ideal for handling large and heavy materials in industrial applications. <b>Hydraulic Pipe Clamping Units:</b> These units use hydraulic power to apply pressure to clamp the pipes securely. They are ideal for holding large-diameter or heavy pipes in place with high force. <ul><li>Applications: Commonly used in pipe welding, heavy-duty fabrication, and pipeline installation.</li><li>Advantages: Provides strong and uniform pressure, reducing the chance of slippage during critical operations such as welding or cutting.</li></ul><b>Applications:</b><ul><li>Oil & Gas Pipelines: Clamping units are used for aligning and welding large-diameter steel pipes in pipelines.</li><li>Construction and Plumbing: For holding pipes securely during installation or repair.</li><li>Manufacturing and Fabrication: To keep steel pipes in place during cutting, welding, or machining operations.</li><li>Shipbuilding and Heavy Industry: Steel pipes are often used in these sectors for transporting fluids or gases, and secure clamping is crucial for handling them.</li></ul>",
-        "image": "./assets/img/products/clamping_unit.jpg",
+        "image": "./assets/img/products/clamping_unit.png",
         "category": "Rolling Mill Equipment Machines"
     },
     
@@ -147,7 +147,7 @@
         "id": 19,
         "name": "DISAPPEARING STOPPER",
         "description": "A retractable stopper designed to temporarily halt the movement of materials on a conveyor or processing line. It is engineered to disappear seamlessly after use, enabling continuous and uninterrupted production flow in rolling mills.",
-        "image": "./assets/img/products/disappearing_stopper.jpg",
+        "image": "./assets/img/products/disappearing_stopper.png",
         "category": "Rolling Mill Equipment Machines"
     },
 
@@ -155,7 +155,7 @@
         "id": 20,
         "name": "VERTICAL STOPPER",
         "description": "A vertically positioned stopper that controls and aligns materials with precision during handling. Commonly used in rolling mills and fabrication units to ensure proper positioning and reduce material waste.",
-        "image": "./assets/img/products/vertical_stopper.jpg",
+        "image": "./assets/img/products/vertical_stopper.png",
         "category": "Rolling Mill Equipment Machines"
     },
 
@@ -171,7 +171,7 @@
         "id": 22,
         "name": "ROLLER CONVEYOR TABLE",
         "description": "A heavy-duty conveyor table featuring rollers that enable the smooth and efficient transportation of metal bars, sheets, or billets across production lines. Ideal for handling large and bulky materials, it reduces manual effort and increases operational efficiency. <ul><li><strong>Warehousing & Distribution:</strong> Used to transport goods between different stages of processing or shipping.</li><li><strong>Assembly Lines:</strong> For assembly or inspection of products as they move through different workstations.</li><li><strong>Packaging & Sorting:</strong> Facilitates the handling of packaged items or sorted materials to streamline distribution.</li></ul>",
-        "image": "./assets/img/products/case_cascade_conveyor.jpg",
+        "image": "./assets/img/products/case_cascade_conveyor.png",
         "category": "Rolling Mill Equipment Machines"
     },    
     {
