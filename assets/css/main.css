@@ -54,6 +54,13 @@ body {
   font-family: var(--default-font);
 }
 
+.custom-card {
+  padding: 20px;
+    border-radius: 10px;
+    background: white;
+    height: 100%;
+}
+
 .img-fluid {
   border-radius: 10PX;
 }
