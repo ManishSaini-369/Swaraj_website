@@ -1075,6 +1075,21 @@ section,
   border: 2px solid #ccc; /* Added border */
 }
 
+.row {
+  display: flex;
+  align-items: stretch;
+}
+
+.img-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.px-3 {
+  width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Services 2 Section
