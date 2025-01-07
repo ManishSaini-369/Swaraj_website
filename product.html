@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +29,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
- 
+
 </head>
 
 <body class="portfolio-details-page">
@@ -76,7 +78,8 @@
 
       <div class="container" data-aos="fade-up">
         <div class="card mb-3" style="background-color: var(--surface-color); color: var(--heading-color);">
-          <img id="product-image" src="" class="card-img-top" alt="Product Image" style="width: 100%; height: 500px; object-fit: contain;">
+          <img id="product-image" src="" class="card-img-top" alt="Product Image"
+            style="width: 100%; height: 500px; object-fit: contain;">
           <div class="card-body">
             <h5 id="product-name" class="card-title" style="font-weight: 900; padding-bottom: 20px;">Loading...</h5>
             <p id="product-description" class="card-text">Loading description...</p>
@@ -84,69 +87,70 @@
             <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">
               Enquire Now
             </button> -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal" 
-        style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal" style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
                transition: 0.3s all ease-in-out; font-size: 14px; color: var(--contrast-color) !important;">
-  Enquire Now
-</button>
+              Enquire Now
+            </button>
 
           </div>
         </div>
       </div>
 
       <!-- Modal for Enquiry Form -->
-  <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content" style="background-color: var(--surface-color); color: var(--heading-color);">
-        <div class="modal-header">
-          <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form id="enquiry-form">
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      <div class="modal fade" id="enquiryModal" tabindex="-1" aria-labelledby="enquiryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: var(--surface-color); color: var(--heading-color);">
+            <div class="modal-header">
+              <h5 class="modal-title" id="enquiryModalLabel">Enquiry Form</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-            </div>
-            <div class="mb-3">
-              <label for="product" class="form-label">Product</label>
-              <input type="text" class="form-control" id="product" readonly>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Your enquiry about the product" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary" style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
+            <div class="modal-body">
+              <form id="enquiry-form">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                  <label for="product" class="form-label">Product</label>
+                  <input type="text" class="form-control" name="product" id="product" readonly>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" name="message" id="message" rows="4" placeholder="Your enquiry about the product"
+                    required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"
+                  style="background-color: var(--accent-color); border-radius: 30px; padding: 8px 30px; border: 2px solid transparent; 
                transition: 0.3s all ease-in-out; font-size: 14px; color: var(--contrast-color) !important;">Submit</button>
-          </form>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <!-- Add this success modal to your HTML -->
-<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" style="background-color: var(--surface-color); color: var(--heading-color);">
-      <div class="modal-header">
-        <h5 class="modal-title" id="successModalLabel">Congratulations!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <!-- Add this success modal to your HTML -->
+      <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: var(--surface-color); color: var(--heading-color);">
+            <div class="modal-header">
+              <h5 class="modal-title" id="successModalLabel">Congratulations!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Thank you for your enquiry! We have received your request and will reach out to you soon.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        Thank you for your enquiry! We have received your request and will reach out to you soon.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-      
+
 
     </section><!-- /Portfolio Details Section -->
 
@@ -156,12 +160,13 @@
     <div class="container">
       <div class="row g-3">
         <div class="col-md-4 col-lg-4 mb-3 mb-md-0">
-          
+
           <div class="widget">
             <h3 class="widget-heading">About Us</h3>
-            
+
             <p class="mb-4">
-              Swaraj Engineering, Founded in 2000, has been creating advanced machines and smart solutions for industries. With years of experience, we focus on improving efficiency and supporting growth.
+              Swaraj Engineering, Founded in 2000, has been creating advanced machines and smart solutions for
+              industries. With years of experience, we focus on improving efficiency and supporting growth.
             </p>
             <p class="mb-0">
               <a href="about.html" class="btn-learn-more">Learn more</a>
@@ -185,7 +190,7 @@
             </ul>
           </div>
         </div>
-        
+
         <div class="col-md-4 col-lg-4 pl-lg-5" style="
         align-self: center;
         justify-items: end;
@@ -195,7 +200,8 @@
               <!-- <i class="bi bi-geo-alt flex-shrink-0"></i> -->
               <div>
                 <h4>Location:</h4>
-                <p>Plot No: D – 167 / 6 , Five Star MIDC , Shendra , Chattrapati Sambhaji nagar  ( Aurangabad ) – Maharashtra </p>
+                <p>Plot No: D – 167 / 6 , Five Star MIDC , Shendra , Chattrapati Sambhaji nagar ( Aurangabad ) –
+                  Maharashtra </p>
               </div>
             </div>
             <h3 class="widget-heading">Connect</h3>
@@ -204,16 +210,19 @@
                 <a href="#"><span class="bi bi-facebook"></span></a>
               </li> -->
               <li>
-                <a href="https://www.instagram.com/swaraj.engineering/profilecard/?igsh=ODBkdHczOWlhZDV6" target="_blank"><span class="bi bi-instagram"></span></a>
+                <a href="https://www.instagram.com/swaraj.engineering/profilecard/?igsh=ODBkdHczOWlhZDV6"
+                  target="_blank"><span class="bi bi-instagram"></span></a>
               </li>
               <!-- <li>
                 <a href="#"><span class="bi bi-twitter-x"></span></a>
               </li> -->
               <li>
-                <a href="https://www.linkedin.com/company/swaraj-engineering/?viewAsMember=true" target="_blank"><span class="bi bi-linkedin"></span></a>
+                <a href="https://www.linkedin.com/company/swaraj-engineering/?viewAsMember=true" target="_blank"><span
+                    class="bi bi-linkedin"></span></a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCBB_nPSvg3iWFLhlEN6nJjQ" target="_blank"><span class="bi bi-youtube"></span></a>
+                <a href="https://www.youtube.com/channel/UCBB_nPSvg3iWFLhlEN6nJjQ" target="_blank"><span
+                    class="bi bi-youtube"></span></a>
               </li>
             </ul>
           </div>
@@ -221,14 +230,16 @@
       </div>
 
       <div class="copyright d-flex flex-column flex-md-row align-items-center justify-content-md-between">
-        <p>© <span>Copyright</span> <strong class="px-1">Swaraj Engineering</strong> <span>All Rights Reserved</span></p>
-        
+        <p>© <span>Copyright</span> <strong class="px-1">Swaraj Engineering</strong> <span>All Rights Reserved</span>
+        </p>
+
       </div>
     </div>
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -246,85 +257,79 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  
-<script>
-  emailjs.init("uowkGQ5cBKqXtmqWG"); // Replace 'your-user-id' with your EmailJS User ID
-</script>
+
+  <script>
+    emailjs.init("uowkGQ5cBKqXtmqWG"); // Replace 'your-user-id' with your EmailJS User ID
+  </script>
 
   <script>
     // Get product ID from URL query string
     const params = new URLSearchParams(window.location.search);
     const productId = params.get('id');
-  
+
     // Fetch product details
     fetch('products.json')
-  .then(response => response.json())
-  .then(products => {
-    const productId = new URLSearchParams(window.location.search).get('id'); // Get product ID from URL
-    const product = products.find(p => p.id == productId); // Find the product by ID
+      .then(response => response.json())
+      .then(products => {
+        const productId = new URLSearchParams(window.location.search).get('id'); // Get product ID from URL
+        const product = products.find(p => p.id == productId); // Find the product by ID
 
-    if (product) {
-      // Update the product details on the page
-      document.getElementById('product-image').src = product.image;
-      document.getElementById('product-name').textContent = product.name;
-      document.getElementById('product-description').innerHTML = product.description; // Use innerHTML to render HTML
+        if (product) {
+          // Update the product details on the page
+          document.getElementById('product-image').src = product.image;
+          document.getElementById('product-name').textContent = product.name;
+          document.getElementById('product-description').innerHTML = product
+          .description; // Use innerHTML to render HTML
 
-      // Automatically fill the product name in the enquiry form
-      document.getElementById('product').value = product.name; // Fill the product name in the input field
-      // Optional: Handle other product properties as needed
-    } else {
-      // If product not found, display an error or fallback message
-      document.getElementById('product-name').textContent = 'Product not found';
-      document.getElementById('product-description').textContent = 'Description not available.';
-    }
-  })
-  .catch(error => console.error('Error loading product data:', error));
+          // Automatically fill the product name in the enquiry form
+          document.getElementById('product').value = product.name; // Fill the product name in the input field
+          // Optional: Handle other product properties as needed
+        } else {
+          // If product not found, display an error or fallback message
+          document.getElementById('product-name').textContent = 'Product not found';
+          document.getElementById('product-description').textContent = 'Description not available.';
+        }
+      })
+      .catch(error => console.error('Error loading product data:', error));
 
-  
-  // Handle enquiry form submission
-  document.getElementById('enquiry-form').addEventListener('submit', function (e) {
-      e.preventDefault();
 
-      // Capture form data
-      const formData = {
-          name: document.getElementById('name').value,
-          email: document.getElementById('email').value,
-          product: document.getElementById('product').value,
-          message: document.getElementById('message').value,
-      };
+    // Handle enquiry form submission
+    document.getElementById('enquiry-form').addEventListener('submit', function (e) {
+      e.preventDefault();  // Prevent the form from submitting the traditional way
+      
+      // Send email using EmailJS with the form itself
+      emailjs.sendForm("service_p82f4n3", "template_9gks2h5", this)
+        .then(function (response) {
+          console.log("Email sent successfully:", response);
 
-      // Send email using EmailJS
-      emailjs.send("service_p82f4n3", "template_9gks2h5", formData)
-          .then(function(response) {
-              console.log("Email sent successfully:", response);
-               // Close the enquiry form modal
-              const enquiryModalElement = document.getElementById("enquiryModal");
-              const enquiryModal = bootstrap.Modal.getInstance(enquiryModalElement); // Get existing instance of the modal
-              if (enquiryModal) {
-                  enquiryModal.hide(); // Close the modal
-              }
+          // Close the enquiry form modal
+          const enquiryModalElement = document.getElementById("enquiryModal");
+          const enquiryModal = bootstrap.Modal.getInstance(enquiryModalElement);
+          if (enquiryModal) {
+            enquiryModal.hide();  // Close the modal
+          }
 
-              // Display the success modal
-              const successModal = new bootstrap.Modal(document.getElementById("successModal"));
-              successModal.show();
+          // Display the success modal
+          const successModal = new bootstrap.Modal(document.getElementById("successModal"));
+          successModal.show();
 
-              // Reset the form after submission
-              event.target.reset();
-          }, function(error) {
-              console.error("Error sending email:", error);
-              alert("There was an error sending your enquiry. Please try again.");
-          });
-  });
-  // Perform form validation or AJAX submission here
-  // Simulate a successful form submission for this example
-  // const successModal = new bootstrap.Modal(document.getElementById('successModal'));
-  // successModal.show();
+          // Reset the form after submission
+          e.target.reset();
+        }, function (error) {
+          console.error("Error sending email:", error);
+          alert("There was an error sending your enquiry. Please try again.");
+        });
+    });
 
-  // // Optionally, reset the form
-  // this.reset();
+    // Perform form validation or AJAX submission here
+    // Simulate a successful form submission for this example
+    // const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+    // successModal.show();
 
+    // // Optionally, reset the form
+    // this.reset();
   </script>
-  
+
 </body>
 
 </html>
