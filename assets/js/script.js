@@ -39,18 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // Render paginated products
   function renderPaginatedProducts(page, filterCategory = '*') {
     const startIndex = page * itemsPerPage;
+  
+    // Filter products based on the selected category
     const filteredProducts = filterCategory === '*'
-      ? products.slice(startIndex, startIndex + itemsPerPage)
-      : products.filter(product => product.category === filterCategory).slice(startIndex, startIndex + itemsPerPage);
-
-    filteredProducts.forEach(product => {
+      ? products
+      : products.filter(product => product.category === filterCategory);
+  
+    const paginatedProducts = filteredProducts.slice(startIndex, startIndex + itemsPerPage);
+  
+    // Render the products
+    paginatedProducts.forEach(product => {
       const productCard = document.createElement('div');
       productCard.className = 'col-md-4';
-
+  
       const limitedDescription = product.description.length > 100
         ? product.description.slice(0, 50) + '...'
         : product.description;
-
+  
       productCard.innerHTML = `
         <div class="card" style="background-color: var(--surface-color); color: var(--heading-color);">
           <img src="${product.image}" loading="lazy" class="card-img-top" style="width: 100%; height: 200px; object-fit: fill" alt="${product.name}">
@@ -63,13 +68,15 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
       productList.appendChild(productCard);
     });
-
-    if ((page + 1) * itemsPerPage >= products.length) {
+  
+    // Check if more products are available to load
+    if ((page + 1) * itemsPerPage >= filteredProducts.length) {
       loadMoreBtn.style.display = 'none';
     } else {
       loadMoreBtn.style.display = 'inline';
     }
   }
+  
 
   // Initialize filters and rendering
   function initialize() {
@@ -122,33 +129,3 @@ function initialize() {
   renderPaginatedProducts(currentPage); // Fetch and render actual products after skeleton loaders
 }
 
-function renderPaginatedProducts(page, filterCategory = '*') {
-  const productList = document.getElementById('product-list');
-  // Hide skeleton loaders
-  productList.innerHTML = ''; 
-
-  const startIndex = page * itemsPerPage;
-  const filteredProducts = filterCategory === '*'
-    ? products.slice(startIndex, startIndex + itemsPerPage)
-    : products.filter(product => product.category === filterCategory).slice(startIndex, startIndex + itemsPerPage);
-
-  filteredProducts.forEach(product => {
-    const productCard = document.createElement('div');
-    productCard.className = 'col-md-4';
-
-    const limitedDescription = product.description.length > 100
-      ? product.description.slice(0, 50) + '...'
-      : product.description;
-
-    productCard.innerHTML = `
-      <div class="card" style="background-color: var(--surface-color); color: var(--heading-color);">
-        <img src="${product.image}" loading="lazy" class="card-img-top" style="width: 100%; height: 200px; object-fit: fill" alt="${product.name}">
-        <div class="card-body">
-          <h5 class="card-title">${product.name}</h5>
-          <p class="card-text">${limitedDescription}</p>
-        </div>
-      </div>
-    `;
-    productList.appendChild(productCard);
-  });
-}
